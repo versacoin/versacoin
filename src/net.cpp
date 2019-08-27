@@ -738,6 +738,21 @@ void CNode::copyStats(CNodeStats &stats)
 }
 #undef X
 
+static bool IsOversizedMessage(const CNetMessage &msg) {
+    if (!msg.in_data) {
+        // Header only, cannot be oversized.
+        return false;
+    }
+
+    // If the message doesn't not contain a block content, check against
+    // MAX_PROTOCOL_MESSAGE_LENGTH.
+    if (msg.in_data && msg.hdr.nMessageSize > MAX_PROTOCOL_MESSAGE_LENGTH && !NetMsgType::IsBlockLike(msg.hdr.GetCommand())) {
+        return true;
+    }
+
+    return msg.hdr.IsOversized();
+}
+
 bool CNode::ReceiveMsgBytes(const char *pch, unsigned int nBytes, bool& complete)
 {
     complete = false;
@@ -764,7 +779,7 @@ bool CNode::ReceiveMsgBytes(const char *pch, unsigned int nBytes, bool& complete
         if (handled < 0)
             return false;
 
-        if (msg.in_data && msg.hdr.nMessageSize > MAX_PROTOCOL_MESSAGE_LENGTH) {
+        if (IsOversizedMessage(msg)) {
             LogPrint(BCLog::NET, "Oversized message from peer=%i, disconnecting\n", GetId());
             return false;
         }
@@ -838,9 +853,11 @@ int CNetMessage::readHeader(const char *pch, unsigned int nBytes)
         return -1;
     }
 
-    // reject messages larger than MAX_SIZE
-    if (hdr.nMessageSize > MAX_SIZE)
+    // Reject oversized messages
+    if (hdr.IsOversized()) {
+        LogPrint(BCLog::NET, "Oversized header detected\n");
         return -1;
+    }
 
     // switch state to reading message data
     in_data = true;

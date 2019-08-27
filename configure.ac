@@ -204,6 +204,12 @@ AC_ARG_ENABLE([zmq],
   [use_zmq=$enableval],
   [use_zmq=yes])
 
+AC_ARG_ENABLE([sse2],
+  [AS_HELP_STRING([--enable-sse2],
+  [enable SSE2 instructions in the scrypt library. (default is disabled)])],
+  [use_sse2=$enableval],
+  [use_sse2=no])
+
 AC_ARG_WITH([protoc-bindir],[AS_HELP_STRING([--with-protoc-bindir=BIN_DIR],[specify protoc bin path])], [protoc_bin_path=$withval], [])
 
 AC_ARG_ENABLE(man,
@@ -1308,6 +1314,16 @@ else
   BUILD_TEST=""
 fi
 
+AC_MSG_CHECKING([whether to enable sse2 instructions])
+if test x$use_sse2 != xno; then
+  AC_MSG_RESULT(yes)
+  AC_DEFINE([USE_SSE2],[1],[Define if SSE2 support should be compiled in])
+  use_sse2=yes
+  CPPFLAGS="$CPPFLAGS -DUSE_SSE2=1"
+else
+  AC_MSG_RESULT(no)
+fi
+
 AC_MSG_CHECKING([whether to reduce exports])
 if test x$use_reduce_exports = xyes; then
   AC_MSG_RESULT([yes])
@@ -1336,6 +1352,7 @@ AM_CONDITIONAL([ENABLE_SSE41],[test x$enable_sse41 = xyes])
 AM_CONDITIONAL([ENABLE_AVX2],[test x$enable_avx2 = xyes])
 AM_CONDITIONAL([ENABLE_SHANI],[test x$enable_shani = xyes])
 AM_CONDITIONAL([USE_ASM],[test x$use_asm = xyes])
+AM_CONDITIONAL([USE_SSE2], [test x$use_sse2 = xyes])
 
 AC_DEFINE(CLIENT_VERSION_MAJOR, _CLIENT_VERSION_MAJOR, [Major version])
 AC_DEFINE(CLIENT_VERSION_MINOR, _CLIENT_VERSION_MINOR, [Minor version])
@@ -1360,6 +1377,7 @@ AC_SUBST(BITCOIN_DAEMON_NAME)
 AC_SUBST(BITCOIN_GUI_NAME)
 AC_SUBST(BITCOIN_CLI_NAME)
 AC_SUBST(BITCOIN_TX_NAME)
+AC_SUBST(USE_SSE2)
 
 AC_SUBST(RELDFLAGS)
 AC_SUBST(DEBUG_CPPFLAGS)

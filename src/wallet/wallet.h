@@ -100,11 +100,11 @@ enum WalletFeature
     FEATURE_LATEST = FEATURE_PRE_SPLIT_KEYPOOL
 };
 
-//! Default for -addresstype
-constexpr OutputType DEFAULT_ADDRESS_TYPE{OutputType::P2SH_SEGWIT};
+//! Default for address type
+constexpr OutputType DEFAULT_ADDRESS_TYPE{OutputType::LEGACY};
 
-//! Default for -changetype
-constexpr OutputType DEFAULT_CHANGE_TYPE{OutputType::CHANGE_AUTO};
+//! Default for change type
+constexpr OutputType DEFAULT_CHANGE_TYPE{OutputType::LEGACY};
 
 enum WalletFlags : uint64_t {
     // wallet flags in the upper section (> 1 << 31) will lead to not opening the wallet if flag is unknown
@@ -1174,20 +1174,6 @@ public:
      * deadlock
      */
     void BlockUntilSyncedToCurrentChain() LOCKS_EXCLUDED(cs_wallet);
-
-    /**
-     * Explicitly make the wallet learn the related scripts for outputs to the
-     * given key. This is purely to make the wallet file compatible with older
-     * software, as CBasicKeyStore automatically does this implicitly for all
-     * keys now.
-     */
-    void LearnRelatedScripts(const CPubKey& key, OutputType);
-
-    /**
-     * Same as LearnRelatedScripts, but when the OutputType is not known (and could
-     * be anything).
-     */
-    void LearnAllRelatedScripts(const CPubKey& key);
 
     /** set a single wallet flag */
     void SetWalletFlag(uint64_t flags);

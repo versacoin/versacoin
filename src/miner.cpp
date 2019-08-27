@@ -8,6 +8,7 @@
 #include <amount.h>
 #include <chain.h>
 #include <chainparams.h>
+#include <chainparamblocks.h>
 #include <coins.h>
 #include <consensus/consensus.h>
 #include <consensus/tx_verify.h>
@@ -23,6 +24,7 @@
 #include <timedata.h>
 #include <util.h>
 #include <utilmoneystr.h>
+#include <utilstrencodings.h>
 #include <validationinterface.h>
 
 #include <algorithm>
@@ -155,9 +157,23 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     CMutableTransaction coinbaseTx;
     coinbaseTx.vin.resize(1);
     coinbaseTx.vin[0].prevout.SetNull();
-    coinbaseTx.vout.resize(1);
-    coinbaseTx.vout[0].scriptPubKey = scriptPubKeyIn;
-    coinbaseTx.vout[0].nValue = nFees + GetBlockSubsidy(nHeight, chainparams.GetConsensus());
+
+    if (nHeight <= Params().GetConsensus().utxoBlockCount)
+    {
+        const auto gocoinUTXOData = GamecoinBlocks::transactions(nHeight);
+        for (const auto& out: *gocoinUTXOData)
+        {
+            std::vector<unsigned char> script(ParseHex(out.second));
+            CScript scriptPubKey(script.begin(), script.end());
+            CTxOut newOut(out.first, scriptPubKey);
+            coinbaseTx.vout.push_back(newOut);
+        }
+    } else {
+        coinbaseTx.vout.resize(1);
+        coinbaseTx.vout[0].scriptPubKey = scriptPubKeyIn;
+        coinbaseTx.vout[0].nValue = nFees + GetBlockSubsidy(nHeight, chainparams.GetConsensus());
+    }
+
     coinbaseTx.vin[0].scriptSig = CScript() << nHeight << OP_0;
     pblock->vtx[0] = MakeTransactionRef(std::move(coinbaseTx));
     pblocktemplate->vchCoinbaseCommitment = GenerateCoinbaseCommitment(*pblock, pindexPrev, chainparams.GetConsensus());

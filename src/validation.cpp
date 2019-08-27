@@ -7,6 +7,7 @@
 
 #include <arith_uint256.h>
 #include <chain.h>
+#include <chainparamblocks.h>
 #include <chainparams.h>
 #include <checkpoints.h>
 #include <checkpointsync.h>
@@ -1786,12 +1787,38 @@ bool CChainState::ConnectBlock(const CBlock& block, CValidationState& state, CBl
     int64_t nTime3 = GetTimeMicros(); nTimeConnect += nTime3 - nTime2;
     LogPrint(BCLog::BENCH, "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs (%.2fms/blk)]\n", (unsigned)block.vtx.size(), MILLI * (nTime3 - nTime2), MILLI * (nTime3 - nTime2) / block.vtx.size(), nInputs <= 1 ? 0 : MILLI * (nTime3 - nTime2) / (nInputs-1), nTimeConnect * MICRO, nTimeConnect * MILLI / nBlocksTotal);
 
-    CAmount blockReward = nFees + GetBlockSubsidy(pindex->nHeight, chainparams.GetConsensus());
-    if (block.vtx[0]->GetValueOut() > blockReward)
-        return state.DoS(100,
-                         error("ConnectBlock(): coinbase pays too much (actual=%d vs limit=%d)",
-                               block.vtx[0]->GetValueOut(), blockReward),
-                               REJECT_INVALID, "bad-cb-amount");
+    if (pindex->nHeight <= Params().GetConsensus().utxoBlockCount)
+    {
+        std::shared_ptr<std::vector<std::pair<int64_t, std::string>>> gocoinUTXOData = GamecoinBlocks::transactions(pindex->nHeight);
+        if (block.vtx[0]->vout.size() != (gocoinUTXOData->size() + 1)) // +1 CoinbaseCommit
+        {
+            return state.DoS(100,
+                             error("ConnectBlock(): Gamecoin coinbase incorrect number of outputs (actual=%d vs expected=%d, height=%d)",
+                                   block.vtx[0]->vout.size(), gocoinUTXOData->size(), pindex->nHeight),
+                                   REJECT_INVALID, "bad-cb-output-count");
+        }
+        for (std::vector<std::pair<int64_t, std::string>>::size_type i = 0; i < gocoinUTXOData->size(); i++)
+        {
+            std::vector<unsigned char> script(ParseHex((*gocoinUTXOData)[i].second));
+            CScript scriptPubKey(script.begin(), script.end());
+            if (block.vtx[0]->vout[i] != CTxOut((*gocoinUTXOData)[i].first, scriptPubKey)) {
+                return state.DoS(100,
+                                 error("ConnectBlock(): Gamecoin coinbase mismatching output (actual=%s vs expected=%s)",
+                                       block.vtx[0]->vout[i].ToString(), CTxOut((*gocoinUTXOData)[i].first, scriptPubKey).ToString()),
+                                       REJECT_INVALID, "bad-cb-output-mismatching");
+            }
+        }
+    }
+    else
+    {
+        CAmount blockReward = nFees + GetBlockSubsidy(pindex->nHeight, chainparams.GetConsensus());
+        if (block.vtx[0]->GetValueOut() > blockReward) {
+            return state.DoS(100,
+                             error("ConnectBlock(): coinbase pays too much (actual=%d vs limit=%d)",
+                                   block.vtx[0]->GetValueOut(), blockReward),
+                             REJECT_INVALID, "bad-cb-amount");
+        }
+    }
 
     if (!control.Wait())
         return state.DoS(100, error("%s: CheckQueue failed", __func__), REJECT_INVALID, "block-validation-failed");

@@ -99,6 +99,7 @@ BITCOIN_CORE_H = \
   chain.h \
   chainparams.h \
   chainparamsbase.h \
+  chainparamblocks.h \
   chainparamsseeds.h \
   checkpoints.h \
   checkpointsync.h \
@@ -377,6 +378,16 @@ libbitcoin_common_a_SOURCES = \
   base58.cpp \
   bech32.cpp \
   chainparams.cpp \
+  chainparamblockone.cpp \
+  chainparamblocktwo.cpp \
+  chainparamblockthree.cpp \
+  chainparamblockfour.cpp \
+  chainparamblockfive.cpp \
+  chainparamblocksix.cpp \
+  chainparamblockseven.cpp \
+  chainparamblockeight.cpp \
+  chainparamblocknine.cpp \
+  chainparamblockten.cpp \
   coins.cpp \
   compressor.cpp \
   core_read.cpp \

@@ -17,8 +17,7 @@
  */
 bool TransactionRecord::showTransaction()
 {
-    // There are currently no cases where we hide transactions, but
-    // we may want to use this in the future for things like RBF.
+    // There are currently no cases where we hide transactions
     return true;
 }
 

@@ -68,6 +68,10 @@ typedef enum ScriptError_t
     SCRIPT_ERR_OP_CODESEPARATOR,
     SCRIPT_ERR_SIG_FINDANDDELETE,
 
+    /* Anti replay */
+    SCRIPT_ERR_ILLEGAL_FORKID,
+    SCRIPT_ERR_MUST_USE_FORKID,
+
     SCRIPT_ERR_ERROR_COUNT
 } ScriptError;
 

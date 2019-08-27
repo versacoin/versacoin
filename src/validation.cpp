@@ -1773,6 +1773,9 @@ static unsigned int GetBlockScriptFlags(const CBlockIndex* pindex, const Consens
         flags |= SCRIPT_VERIFY_CHECKSEQUENCEVERIFY;
     }
 
+    flags |= SCRIPT_VERIFY_STRICTENC;
+    flags |= SCRIPT_ENABLE_SIGHASH_FORKID;
+
     if (IsNullDummyEnabled(pindex->pprev, consensusparams)) {
         flags |= SCRIPT_VERIFY_NULLDUMMY;
     }

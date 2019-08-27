@@ -61,13 +61,22 @@ std::string FormatScript(const CScript& script)
     return ret.substr(0, ret.size() - 1);
 }
 
-const std::map<unsigned char, std::string> mapSigHashTypes = {
-    {static_cast<unsigned char>(SIGHASH_ALL), std::string("ALL")},
-    {static_cast<unsigned char>(SIGHASH_ALL|SIGHASH_ANYONECANPAY), std::string("ALL|ANYONECANPAY")},
-    {static_cast<unsigned char>(SIGHASH_NONE), std::string("NONE")},
-    {static_cast<unsigned char>(SIGHASH_NONE|SIGHASH_ANYONECANPAY), std::string("NONE|ANYONECANPAY")},
-    {static_cast<unsigned char>(SIGHASH_SINGLE), std::string("SINGLE")},
-    {static_cast<unsigned char>(SIGHASH_SINGLE|SIGHASH_ANYONECANPAY), std::string("SINGLE|ANYONECANPAY")},
+const std::map<uint8_t, std::string> mapSigHashTypes = {
+    {SIGHASH_ALL, "ALL"},
+    {SIGHASH_ALL | SIGHASH_ANYONECANPAY, "ALL|ANYONECANPAY"},
+    {SIGHASH_ALL | SIGHASH_FORKID, "ALL|FORKID"},
+    {SIGHASH_ALL | SIGHASH_FORKID | SIGHASH_ANYONECANPAY,
+     "ALL|FORKID|ANYONECANPAY"},
+    {SIGHASH_NONE, "NONE"},
+    {SIGHASH_NONE | SIGHASH_ANYONECANPAY, "NONE|ANYONECANPAY"},
+    {SIGHASH_NONE | SIGHASH_FORKID, "NONE|FORKID"},
+    {SIGHASH_NONE | SIGHASH_FORKID | SIGHASH_ANYONECANPAY,
+     "NONE|FORKID|ANYONECANPAY"},
+    {SIGHASH_SINGLE, "SINGLE"},
+    {SIGHASH_SINGLE | SIGHASH_ANYONECANPAY, "SINGLE|ANYONECANPAY"},
+    {SIGHASH_SINGLE | SIGHASH_FORKID, "SINGLE|FORKID"},
+    {SIGHASH_SINGLE | SIGHASH_FORKID | SIGHASH_ANYONECANPAY,
+     "SINGLE|FORKID|ANYONECANPAY"},
 };
 
 std::string SighashToStr(unsigned char sighash_type)
@@ -109,7 +118,14 @@ std::string ScriptToAsmStr(const CScript& script, const bool fAttemptSighashDeco
                     // this won't decode correctly formatted public keys in Pubkey or Multisig scripts due to
                     // the restrictions on the pubkey formats (see IsCompressedOrUncompressedPubKey) being incongruous with the
                     // checks in CheckSignatureEncoding.
-                    if (CheckSignatureEncoding(vch, SCRIPT_VERIFY_STRICTENC, nullptr)) {
+                    uint32_t flags = SCRIPT_VERIFY_STRICTENC;
+                    if (vch.back() & SIGHASH_FORKID) {
+                        // If the transaction is using SIGHASH_FORKID, we need
+                        // to set the apropriate flag.
+                        // TODO: Remove after the Hard Fork.
+                        flags |= SCRIPT_ENABLE_SIGHASH_FORKID;
+                    }
+                    if (CheckSignatureEncoding(vch, flags, nullptr)) {
                         const unsigned char chSigHashType = vch.back();
                         if (mapSigHashTypes.count(chSigHashType)) {
                             strSigHashDecode = "[" + mapSigHashTypes.find(chSigHashType)->second + "]";

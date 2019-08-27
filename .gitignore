@@ -11,6 +11,7 @@ src/qt/test/test_bitcoin-qt
 
 # autoreconf
 Makefile.in
+Makefile.am.user
 aclocal.m4
 autom4te.cache/
 build-aux/config.guess

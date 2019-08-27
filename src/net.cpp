@@ -2737,6 +2737,7 @@ CNode::CNode(NodeId idIn, ServiceFlags nLocalServicesIn, int nMyStartingHeightIn
     nSendOffset = 0;
     hashContinue = uint256();
     nStartingHeight = -1;
+    supportACPMessages = false;
     filterInventoryKnown.reset();
     fSendMempool = false;
     fGetAddr = false;

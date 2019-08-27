@@ -838,7 +838,7 @@ QString formatServicesStr(quint64 mask)
     QStringList strList;
 
     // Just scan the last 8 bits for now.
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 25; i++) {
         uint64_t check = 1 << i;
         if (mask & check)
         {
@@ -858,6 +858,9 @@ QString formatServicesStr(quint64 mask)
                 break;
             case NODE_XTHIN:
                 strList.append("XTHIN");
+                break;
+            case NODE_ACP:
+                strList.append("ACP");
                 break;
             default:
                 strList.append(QString("%1[%2]").arg("UNKNOWN").arg(check));

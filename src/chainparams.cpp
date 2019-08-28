@@ -110,8 +110,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xcedaf8dd38a8936e33c755f9010d2d454e197d8cb6ad55834f68c2a44857a058"));
         assert(genesis.hashMerkleRoot == uint256S("0xc77c6bb71742c7d4cbe0abf50f546fd01105238f8f2f01ce631dcf77108c2474"));
 
-        vSeeds.emplace_back("seed1.nodeseed.net");
-        vSeeds.emplace_back("seed2.nodeseed.net");
+        vSeeds.emplace_back("seed1.gocoinproject.org");
+        vSeeds.emplace_back("seed2.gocoinproject.org");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);

@@ -847,6 +847,8 @@ QString formatServicesStr(quint64 mask)
             case NODE_NETWORK:
                 strList.append("NETWORK");
                 break;
+            case NODE_NETWORK_LIMITED:
+                break;
             case NODE_GETUTXO:
                 strList.append("GETUTXO");
                 break;

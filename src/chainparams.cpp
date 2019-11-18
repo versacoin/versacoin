@@ -105,9 +105,9 @@ public:
         nDefaultPort = 6888;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1566299000, 1173059, 0x1e0ffff0, 1, 4 * COIN);
+        genesis = CreateGenesisBlock(1574064846, 1127903, 0x1e0ffff0, 1, 4 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0xcedaf8dd38a8936e33c755f9010d2d454e197d8cb6ad55834f68c2a44857a058"));
+        assert(consensus.hashGenesisBlock == uint256S("0x7a02c7cfc698a11c63b6a844fe814b05236e5ec8d88c2ba3cc7ce70a2e2c6bea"));
         assert(genesis.hashMerkleRoot == uint256S("0xc77c6bb71742c7d4cbe0abf50f546fd01105238f8f2f01ce631dcf77108c2474"));
 
         vSeeds.emplace_back("seed1.gocoinproject.org");

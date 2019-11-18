@@ -388,6 +388,9 @@ libbitcoin_common_a_SOURCES = \
   chainparamblockeight.cpp \
   chainparamblocknine.cpp \
   chainparamblockten.cpp \
+  chainparamblockeleven.cpp \
+  chainparamblocktwelve.cpp \
+  chainparamblockthirteen.cpp \
   coins.cpp \
   compressor.cpp \
   core_read.cpp \

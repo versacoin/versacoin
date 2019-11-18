@@ -9,10 +9,12 @@
 #include <vector>
 #include <memory>
 
+typedef std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > blockUTXO;
+
 class GamecoinBlocks
 {
 public:
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions(int blockNumber)
+    static blockUTXO transactions(int blockNumber)
     {
         switch(blockNumber)
         {
@@ -26,20 +28,26 @@ public:
         case 8: return transactions_block_eight();
         case 9: return transactions_block_nine();
         case 10: return transactions_block_ten();
+        case 11: return transactions_block_eleven();
+        case 12: return transactions_block_twelve();
+        case 13: return transactions_block_thirteen();
         default: return nullptr;
         }
     }
 private:
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_one();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_two();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_three();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_four();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_five();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_six();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_seven();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_eight();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_nine();
-    static std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > transactions_block_ten();
+    static blockUTXO transactions_block_one();
+    static blockUTXO transactions_block_two();
+    static blockUTXO transactions_block_three();
+    static blockUTXO transactions_block_four();
+    static blockUTXO transactions_block_five();
+    static blockUTXO transactions_block_six();
+    static blockUTXO transactions_block_seven();
+    static blockUTXO transactions_block_eight();
+    static blockUTXO transactions_block_nine();
+    static blockUTXO transactions_block_ten();
+    static blockUTXO transactions_block_eleven();
+    static blockUTXO transactions_block_twelve();
+    static blockUTXO transactions_block_thirteen();
 };
 
 #endif // GOCOIN_CHAINPARAMBLOCKS_H

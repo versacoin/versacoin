@@ -1,122 +1,9 @@
 #include <chainparamblocks.h>
 
-std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::transactions_block_nine()
+blockUTXO GamecoinBlocks::transactions_block_nine()
 {
     auto mainnetUTXOs = std::make_shared<std::vector<std::pair<int64_t, std::string> > >();
 
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411579
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411583
-    mainnetUTXOs->emplace_back(35018953606, "76a914090fe28f6a4d1af6296df124fcb9ed761d5c2b3988ac"); // block 411589
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411594
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411608
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411609
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411612
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411613
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411615
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411616
-    mainnetUTXOs->emplace_back(2649500, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411617
-    mainnetUTXOs->emplace_back(73312500, "76a914c519a9bb708338c90cbf40801b18d62ef91c9d3988ac"); // block 411617
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411618
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411620
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411621
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411622
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411625
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411626
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411628
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411630
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411631
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411632
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411633
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411634
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411635
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411637
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411639
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411640
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411643
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411644
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411650
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411651
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411653
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411654
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411657
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411659
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411661
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411662
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411663
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411668
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411670
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411673
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411675
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411679
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411681
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411683
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411684
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411685
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411686
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411687
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411689
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411692
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411694
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411695
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411696
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411697
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411698
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411699
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411700
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411701
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411702
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411703
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411704
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411705
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411707
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411709
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411711
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411714
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411717
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411720
-    mainnetUTXOs->emplace_back(5459800500, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 411726
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411729
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411730
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411731
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411733
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411734
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411736
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411737
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411740
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411743
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411744
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411746
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411747
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411748
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411750
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411751
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411753
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411754
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411755
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411756
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411757
-    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411760
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411761
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411763
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411764
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411765
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411766
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411768
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411769
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411770
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411771
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411773
-    mainnetUTXOs->emplace_back(2579375, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411774
-    mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 411774
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411776
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411777
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411780
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411781
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411782
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411784
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411785
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411787
-    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411788
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411789
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411790
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411796
@@ -124,7 +11,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411802
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411803
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411805
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411806
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411807
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411808
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 411809
@@ -185,7 +71,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411919
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411920
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411921
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411922
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411923
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411925
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411931
@@ -207,14 +92,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411956
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411957
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411960
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411961
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411962
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411963
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411970
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411973
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411977
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411980
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 411981
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 411983
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411984
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 411986
@@ -235,15 +118,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412003
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412004
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412006
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412008
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 412015
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412016
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412017
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412019
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412020
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412022
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412024
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412027
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412028
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412030
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 412031
@@ -323,7 +203,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412191
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412192
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412194
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412197
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412199
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412200
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412206
@@ -331,8 +210,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412210
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412211
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412212
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412213
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412214
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412215
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412216
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412217
@@ -660,7 +537,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412777
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412778
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412779
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412782
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412783
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412786
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412789
@@ -757,7 +633,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 412952
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 412953
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412959
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412961
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412964
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412969
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412973
@@ -769,7 +644,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412981
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412982
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412985
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412986
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412987
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412991
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412992
@@ -777,10 +651,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412995
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412996
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 412997
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 412998
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 412999
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413002
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413003
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413005
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413007
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413008
@@ -815,7 +687,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413059
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413060
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413064
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413065
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413068
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413071
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413073
@@ -832,7 +703,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413095
     mainnetUTXOs->emplace_back(259052500, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413096
     mainnetUTXOs->emplace_back(5692500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 413096
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413097
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413099
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413100
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413103
@@ -871,7 +741,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413162
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413165
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413169
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413170
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413171
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413174
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413177
@@ -1119,7 +988,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413595
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413596
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413597
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413598
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413602
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413604
@@ -1135,7 +1003,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413637
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413638
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413641
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413642
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413643
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413645
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413647
@@ -1152,7 +1019,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413666
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413667
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413669
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413671
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413675
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413676
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413680
@@ -1209,7 +1075,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 413763
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413764
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413766
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413767
     mainnetUTXOs->emplace_back(2594125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413768
     mainnetUTXOs->emplace_back(5207194574, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 413768
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413769
@@ -1256,7 +1121,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413841
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413844
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413845
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413849
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413850
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413851
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413852
@@ -1332,7 +1196,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413982
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413985
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413986
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 413988
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413989
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413990
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 413995
@@ -1367,12 +1230,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414037
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414038
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414039
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414041
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414042
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414045
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414048
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414050
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414051
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414052
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414053
     mainnetUTXOs->emplace_back(5453231850, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 414059
@@ -1402,11 +1263,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414103
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414105
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414108
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414109
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414110
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 414114
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414117
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414119
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414120
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414121
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414123
@@ -1440,7 +1299,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414164
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414166
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414170
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414172
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414173
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414175
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414176
@@ -1461,19 +1319,16 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414212
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414214
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414215
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414218
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414219
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414223
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414224
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414226
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414227
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414236
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414248
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414254
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414257
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414260
     mainnetUTXOs->emplace_back(5940000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 414261
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414265
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414268
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414269
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414270
@@ -1501,7 +1356,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414364
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414365
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414366
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414369
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414370
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414372
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414374
@@ -1592,7 +1446,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2656950, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414528
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414531
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414533
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414534
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414535
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414536
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414537
@@ -1633,7 +1486,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414594
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414597
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414598
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414600
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414601
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414602
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414603
@@ -1695,7 +1547,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414698
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414699
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414700
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414703
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414705
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414706
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414710
@@ -1715,7 +1566,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414736
     mainnetUTXOs->emplace_back(5948595675, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 414740
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414744
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414745
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414746
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414747
@@ -1741,7 +1591,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414778
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414779
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414781
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414783
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414784
     mainnetUTXOs->emplace_back(2583125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414785
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 414785
@@ -1792,7 +1641,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414861
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414864
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414866
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 414869
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 414870
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414876
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 414877
@@ -1859,17 +1707,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415005
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415008
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415025
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415040
     mainnetUTXOs->emplace_back(7433971875, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 415043
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415047
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415049
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415051
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415056
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415064
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415071
     mainnetUTXOs->emplace_back(5692500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 415099
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415125
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415133
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415134
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415136
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415141
@@ -1878,13 +1721,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415188
     mainnetUTXOs->emplace_back(254620000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415189
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415197
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415198
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415209
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415212
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415218
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415219
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415220
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415229
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415241
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415242
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415243
@@ -1904,15 +1744,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415286
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415287
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415288
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415295
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415353
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415374
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415383
     mainnetUTXOs->emplace_back(7425000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 415395
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415403
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415427
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415437
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415439
     mainnetUTXOs->emplace_back(2542550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415441
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415442
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415445
@@ -2030,7 +1865,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415656
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415657
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415659
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415661
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415663
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415667
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415668
@@ -2066,7 +1900,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415713
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415714
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415715
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415717
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415718
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415722
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 415725
@@ -2086,7 +1919,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415751
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415757
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415758
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415766
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415772
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415777
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415789
@@ -2112,14 +1944,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415894
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415895
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415896
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415897
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415899
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415900
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415901
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415902
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 415904
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415913
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415920
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415948
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 415986
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416026
@@ -2145,7 +1975,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416075
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416076
     mainnetUTXOs->emplace_back(2546225, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416078
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416079
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416080
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416081
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416082
@@ -2557,7 +2386,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5077524827, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 416670
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416672
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 416673
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416675
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416678
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416679
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416680
@@ -2585,7 +2413,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416726
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416727
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416730
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416732
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416733
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416736
@@ -2604,9 +2431,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416762
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416763
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416765
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416766
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416767
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 416768
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416769
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416770
@@ -2683,7 +2508,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416902
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 416903
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416904
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416905
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416907
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416909
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 416911
@@ -2699,7 +2523,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416925
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416927
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416929
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 416932
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416935
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416938
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416941
@@ -2734,8 +2557,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 416996
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 416998
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417001
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417004
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417006
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 417008
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417011
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417012
@@ -2813,14 +2634,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417160
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417179
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 417183
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417184
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417212
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417221
     mainnetUTXOs->emplace_back(6435000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 417234
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417241
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417258
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 417272
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417288
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417300
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417302
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 417303
@@ -2844,9 +2663,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417330
     mainnetUTXOs->emplace_back(100731505, "76a914e63817e8e807818efddf3a3ea04d835d14f9f6c488ac"); // block 417341
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417343
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417345
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417362
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417371
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417372
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417389
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417406
@@ -2870,15 +2687,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417649
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417654
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417669
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417672
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417705
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417715
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417741
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417746
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417748
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417755
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417766
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417779
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 417784
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417787
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417820
@@ -2886,7 +2699,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417838
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417842
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417844
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417860
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417881
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 417886
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 417915
@@ -2896,8 +2708,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418017
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418022
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418024
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418034
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418035
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418053
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418064
     mainnetUTXOs->emplace_back(1445447378208, "76a91468c8f0465506b88b660e9d3de9d6334cf6d670d388ac"); // block 418065
@@ -2911,24 +2721,16 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418081
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418113
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418118
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418126
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418137
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418145
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418156
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418158
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418159
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418167
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418173
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418182
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418186
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418191
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418202
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418204
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418227
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418233
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418241
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418248
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418259
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418261
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418265
     mainnetUTXOs->emplace_back(12524990000000, "76a914a863a437f496e43f387933b533e8e401f4c7c3db88ac"); // block 418267
@@ -2963,7 +2765,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418630
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418635
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418639
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418655
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418656
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418658
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418670
@@ -2973,42 +2774,31 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418707
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418736
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418746
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418773
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418775
     mainnetUTXOs->emplace_back(1249990000000, "76a91424418213150cde78b4d76d28fef686608ba8441d88ac"); // block 418777
     mainnetUTXOs->emplace_back(15000000, "76a91424418213150cde78b4d76d28fef686608ba8441d88ac"); // block 418777
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418780
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418781
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418785
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418787
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418824
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418827
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418830
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418852
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418854
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418857
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418859
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418880
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418885
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418894
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418906
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418918
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418919
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 418923
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418936
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418951
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 418952
     mainnetUTXOs->emplace_back(1499990000000, "76a91424418213150cde78b4d76d28fef686608ba8441d88ac"); // block 418982
     mainnetUTXOs->emplace_back(2522150897425, "76a914b00057ec312b2c0a9eb24efe86dbf30ca8cb521288ac"); // block 418982
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 418987
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419011
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 419019
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 419021
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419028
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419039
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419041
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419057
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419060
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419080
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 419082
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419083
@@ -3053,7 +2843,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419160
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419161
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419164
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419166
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419167
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419172
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419174
@@ -3065,10 +2854,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419186
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419187
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419189
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419190
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419191
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419192
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419193
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419195
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419196
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419197
@@ -3154,7 +2941,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 419352
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419353
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419354
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419355
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419357
     mainnetUTXOs->emplace_back(5205719474, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 419359
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419361
@@ -3252,7 +3038,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419514
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419517
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419518
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419522
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419523
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419527
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419529
@@ -3485,7 +3270,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419957
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419959
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419960
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 419961
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 419962
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 419965
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 419967
@@ -3525,8 +3309,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420036
     mainnetUTXOs->emplace_back(2583150, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420037
     mainnetUTXOs->emplace_back(5461458750, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 420037
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420038
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420039
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420040
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420043
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420044
@@ -3541,7 +3323,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420068
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420073
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420075
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420076
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420077
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420078
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420082
@@ -3605,7 +3386,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420192
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420193
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420194
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420195
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420196
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 420197
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420199
@@ -3654,7 +3434,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420265
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420269
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420273
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420275
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420277
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420281
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420286
@@ -3681,7 +3460,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420321
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 420324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420326
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420327
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 420328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420331
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420332
@@ -3694,7 +3472,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420343
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420345
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420346
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420348
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420354
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420357
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420358
@@ -3713,7 +3490,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420385
     mainnetUTXOs->emplace_back(2579400, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420388
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 420388
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420391
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420394
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420395
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420396
@@ -3748,7 +3524,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420452
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420453
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420455
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420457
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420458
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420460
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420461
@@ -3776,7 +3551,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420498
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420500
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420504
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420505
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420507
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 420508
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420511
@@ -3796,14 +3570,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420535
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420536
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420537
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420538
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420541
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420543
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 420545
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420546
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420547
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420549
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420550
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420551
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420552
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420553
@@ -3816,7 +3588,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420563
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420564
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 420565
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420567
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420568
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420575
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420578
@@ -3824,7 +3595,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420582
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420583
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420586
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 420589
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420590
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420591
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 420592
@@ -4262,7 +4032,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421241
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421243
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421244
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421245
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421246
     mainnetUTXOs->emplace_back(2657775, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421247
     mainnetUTXOs->emplace_back(5038645731, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 421247
@@ -4315,7 +4084,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421302
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421304
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421305
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421306
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421308
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421309
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421310
@@ -4397,7 +4165,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421449
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 421450
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421451
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421453
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421454
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421460
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421462
@@ -4505,12 +4272,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421645
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421646
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421647
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421648
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421651
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421655
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421656
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421657
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421658
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421660
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 421661
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421662
@@ -4558,7 +4323,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421738
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421740
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421741
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 421744
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421748
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421750
@@ -4566,14 +4330,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 421752
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421753
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421754
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421755
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421757
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421758
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421760
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421762
     mainnetUTXOs->emplace_back(5205358125, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 421763
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421766
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421767
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421768
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421771
@@ -4613,7 +4375,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421824
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 421826
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421827
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421829
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421830
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421833
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421834
@@ -4679,7 +4440,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421938
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421941
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421942
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 421943
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421944
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421945
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 421952
@@ -4784,7 +4544,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422141
     mainnetUTXOs->emplace_back(2594200, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422142
     mainnetUTXOs->emplace_back(5453959500, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 422142
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422144
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422146
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422149
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422150
@@ -4792,7 +4551,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422154
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422155
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422157
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422159
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422160
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422164
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422167
@@ -4884,7 +4642,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422304
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422305
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422307
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422308
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422310
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422311
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422312
@@ -4936,7 +4693,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422392
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422394
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422396
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422398
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422400
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422401
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422404
@@ -5023,7 +4779,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2653175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422493
     mainnetUTXOs->emplace_back(7920000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 422493
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422494
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422496
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422498
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422499
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 422500
@@ -5244,7 +4999,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422934
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 422936
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422937
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 422938
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422939
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422943
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 422944
@@ -5362,7 +5116,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423159
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423160
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423161
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423162
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423163
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423167
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423168
@@ -5397,7 +5150,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423216
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423217
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423218
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423219
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423222
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423225
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423229
@@ -5450,7 +5202,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423307
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423308
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423310
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423311
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423313
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423314
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423319
@@ -5586,7 +5337,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5463282824, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 423570
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423571
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423576
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423582
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423587
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423590
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423591
@@ -5613,7 +5363,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423640
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423641
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423645
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423648
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423649
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423650
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423653
@@ -5721,7 +5470,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423830
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 423832
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 423835
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423836
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423837
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 423839
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423840
@@ -5731,7 +5479,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423846
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423847
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423848
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423851
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423853
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423854
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423855
@@ -5765,7 +5512,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423890
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423891
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423895
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 423898
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423900
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423902
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 423904
@@ -5863,10 +5609,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424083
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424085
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424087
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424089
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424090
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424092
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424095
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424096
     mainnetUTXOs->emplace_back(2607125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424097
     mainnetUTXOs->emplace_back(5454697050, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 424097
@@ -5919,7 +5663,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424181
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424182
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424184
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424185
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424186
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 424187
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424188
@@ -6102,12 +5845,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 424517
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424520
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424521
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424523
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 424524
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424525
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424526
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424527
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 424528
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424530
     mainnetUTXOs->emplace_back(2597800, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424531
@@ -6296,7 +6037,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424872
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424873
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424875
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 424876
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424877
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424878
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 424879
@@ -6412,7 +6152,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425099
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425101
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425104
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425105
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425106
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425107
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425108
@@ -6423,7 +6162,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425116
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425117
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425118
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425121
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425122
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425123
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425124
@@ -6621,7 +6359,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(8845000000, "76a91426af0468de2407b0eb2ce170550b90872006532e88ac"); // block 425430
     mainnetUTXOs->emplace_back(110561, "76a91486f9b5746f82b5ad9c9dee968db5ff7781400cff88ac"); // block 425430
     mainnetUTXOs->emplace_back(1750000, "76a91426af0468de2407b0eb2ce170550b90872006532e88ac"); // block 425430
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425434
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425436
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425437
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425438
@@ -6640,7 +6377,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425467
     mainnetUTXOs->emplace_back(2586750, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425468
     mainnetUTXOs->emplace_back(5454325800, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 425468
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425470
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425473
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425476
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425478
@@ -6670,7 +6406,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425525
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425527
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425530
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425533
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425535
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425536
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 425537
@@ -6854,7 +6589,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425799
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425802
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 425804
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 425807
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425809
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425810
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 425811
@@ -6993,7 +6727,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5940000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 426065
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426068
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426069
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426071
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426074
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426076
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426082
@@ -7013,7 +6746,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426104
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426106
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426107
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426108
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426110
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426111
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 426112
@@ -7021,7 +6753,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426114
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426115
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426121
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426123
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426124
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426125
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426128
@@ -7054,7 +6785,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426185
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426187
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426188
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426190
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426191
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426192
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426193
@@ -7078,19 +6808,14 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426223
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426224
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426225
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426226
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426229
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426230
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426233
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426240
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426242
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426244
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426266
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426268
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426274
     mainnetUTXOs->emplace_back(7177500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 426276
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426290
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426293
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426301
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426313
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426324
@@ -7099,12 +6824,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(12579698147775, "76a91424418213150cde78b4d76d28fef686608ba8441d88ac"); // block 426337
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426340
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426357
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426371
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426388
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426392
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426395
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426408
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426417
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426423
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426437
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426439
@@ -7118,7 +6840,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426481
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426487
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426490
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426497
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426498
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426508
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426514
@@ -7126,7 +6847,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426517
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426519
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426520
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426521
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426522
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426523
@@ -7147,7 +6867,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426549
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426550
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426551
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426552
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426555
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426557
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426558
@@ -7164,7 +6883,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426577
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426578
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426580
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426581
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426582
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426584
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426585
@@ -7254,7 +6972,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426758
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 426759
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426760
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426762
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426763
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426764
@@ -7272,7 +6989,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426785
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426786
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426790
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426793
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426794
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426795
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426799
@@ -7301,7 +7017,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426841
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426842
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426845
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426846
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426847
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426849
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426853
@@ -7351,9 +7066,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426943
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426944
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426945
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426946
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426951
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 426952
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 426953
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426954
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 426955
@@ -7564,7 +7277,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427281
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427282
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427284
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427285
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427287
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427289
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 427295
@@ -7620,7 +7332,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427386
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427387
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427388
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427389
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427393
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427394
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427403
@@ -7822,7 +7533,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427751
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427754
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 427755
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427758
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427760
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427764
@@ -7867,8 +7577,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427853
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427855
     mainnetUTXOs->emplace_back(5692500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 427864
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427882
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427889
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427900
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427907
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 427912
@@ -7882,8 +7590,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427981
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427988
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 427992
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428015
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428027
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428037
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428038
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428039
@@ -7924,7 +7630,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428114
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428121
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428125
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428127
     mainnetUTXOs->emplace_back(254620000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 428129
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428131
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428136
@@ -7958,8 +7663,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428197
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428207
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428212
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428213
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428219
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428236
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428237
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428239
@@ -7988,7 +7691,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428280
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428282
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428285
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428286
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428287
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428288
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428289
@@ -8008,7 +7710,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428316
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428317
     mainnetUTXOs->emplace_back(2557275, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428318
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428320
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428323
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428325
@@ -8074,14 +7775,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 428490
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428504
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428529
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428532
     mainnetUTXOs->emplace_back(7197240600, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 428542
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428551
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428561
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428575
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428585
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428590
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428596
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428612
     mainnetUTXOs->emplace_back(2542525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428623
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428626
@@ -8097,7 +7794,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428642
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428643
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428647
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428654
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428659
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428660
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428662
@@ -8194,14 +7890,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428867
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428871
     mainnetUTXOs->emplace_back(7199101800, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 428876
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428886
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428891
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428896
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428901
     mainnetUTXOs->emplace_back(6443957025, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 428926
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428930
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428939
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428940
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428952
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428955
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428956
@@ -8211,7 +7905,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428961
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428964
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428968
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 428969
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428970
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428971
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 428972
@@ -8261,7 +7954,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429073
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429074
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429075
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429076
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429077
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429079
     mainnetUTXOs->emplace_back(259050000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429081
@@ -8284,12 +7976,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429109
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429117
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429118
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429120
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429122
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429123
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429125
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429126
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429127
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429128
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429129
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429132
@@ -8299,7 +7989,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429142
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429144
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429148
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429149
     mainnetUTXOs->emplace_back(2590600, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429150
     mainnetUTXOs->emplace_back(5696712450, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 429150
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429151
@@ -8337,7 +8026,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5453969399, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 429254
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429258
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429277
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429285
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429289
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429290
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429291
@@ -8345,13 +8033,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2579425, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429308
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 429308
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429310
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429311
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429319
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429321
     mainnetUTXOs->emplace_back(2542600, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429322
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429325
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429330
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429332
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429339
@@ -8361,29 +8047,20 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429350
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429351
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429352
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429353
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429364
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429370
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429371
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429392
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429399
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429400
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429410
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429423
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429429
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429431
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429436
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429449
     mainnetUTXOs->emplace_back(5214154274, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 429458
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429473
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429484
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429497
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429499
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429513
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429519
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429530
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429543
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429549
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429550
@@ -8404,7 +8081,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429586
     mainnetUTXOs->emplace_back(2542550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429590
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429591
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429595
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429596
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429598
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429600
@@ -8496,10 +8172,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429792
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429794
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429796
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429797
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429799
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429801
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429802
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429806
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429809
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429810
@@ -8526,12 +8200,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429867
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429870
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429871
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429872
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429874
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429875
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 429877
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429878
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 429882
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429885
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429889
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429890
@@ -8546,19 +8218,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429987
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 429991
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430004
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430006
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430015
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430016
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430020
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430023
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430039
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430042
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430071
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430078
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430080
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430082
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430090
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430098
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430116
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430120
     mainnetUTXOs->emplace_back(5205363075, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 430121
@@ -8566,7 +8232,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430136
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430157
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430160
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430163
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430165
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430178
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430188
@@ -8682,7 +8347,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430502
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430503
     mainnetUTXOs->emplace_back(6193162800, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 430506
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430522
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430527
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430548
@@ -8698,25 +8362,20 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2546175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430585
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430586
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430587
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430589
     mainnetUTXOs->emplace_back(254257500, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 430596
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430597
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430606
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430608
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430613
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430656
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430667
     mainnetUTXOs->emplace_back(5449217399, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 430686
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430701
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430704
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430711
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430712
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430715
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430719
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430724
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430730
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430733
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 430739
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430753
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430764
@@ -8724,13 +8383,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430767
     mainnetUTXOs->emplace_back(2549875, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430777
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430781
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430791
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430792
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430793
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430807
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430812
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430830
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430835
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 430841
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430845
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 430864
@@ -8791,18 +8448,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431010
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431032
     mainnetUTXOs->emplace_back(6461041949, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 431036
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431053
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431061
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431068
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431070
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431071
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431079
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431084
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431086
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431087
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431091
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431097
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431098
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431107
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431108
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431109
@@ -8921,12 +8573,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431258
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431259
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431261
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431263
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431264
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431268
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431270
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431271
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431273
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431274
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431275
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431276
@@ -8987,9 +8636,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431370
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431373
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431387
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431389
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431396
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431400
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431407
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431428
     mainnetUTXOs->emplace_back(7680358125, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 431430
@@ -8999,17 +8646,14 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431468
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 431469
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431477
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431482
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431487
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431493
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431507
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431527
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431559
     mainnetUTXOs->emplace_back(2542525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431562
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431571
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431572
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431577
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431586
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431611
     mainnetUTXOs->emplace_back(2546150, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431617
@@ -9023,92 +8667,61 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431664
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431666
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431667
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431670
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431681
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431684
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431685
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431686
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431687
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431689
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431694
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431695
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431696
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431701
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431709
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431710
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431725
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431735
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431740
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431743
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431745
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431751
     mainnetUTXOs->emplace_back(5206278825, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 431769
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431789
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431790
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431792
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431794
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431798
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431822
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431829
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431837
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431840
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431843
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431848
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431851
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431862
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431865
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431870
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431877
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431884
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431889
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431894
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431897
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431901
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431906
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431907
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431909
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431921
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431923
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431938
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431939
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431944
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431947
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 431956
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431965
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431968
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431973
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431978
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431982
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431994
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431996
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431997
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 431999
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432008
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432011
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432023
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432030
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432033
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432035
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432048
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432069
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432080
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432085
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432088
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432093
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432102
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432107
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432113
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432115
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432144
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432154
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432155
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432162
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432164
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432165
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432166
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432167
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432170
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432171
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432177
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432178
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432181
@@ -9122,38 +8735,24 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432220
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432225
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432227
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432250
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432251
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432254
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 432262
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432266
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432268
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432278
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432282
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432284
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432288
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432300
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432306
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432312
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432315
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432316
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432319
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432321
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432325
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432326
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432327
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432330
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432331
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432338
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432340
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432343
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432346
     mainnetUTXOs->emplace_back(2553525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432350
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432351
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432355
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432359
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432360
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432367
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432382
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432390
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432392
@@ -9161,8 +8760,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432399
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432402
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432403
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432406
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432410
     mainnetUTXOs->emplace_back(2538825, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432412
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432420
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432427
@@ -9177,14 +8774,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432461
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432468
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432474
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432480
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432484
     mainnetUTXOs->emplace_back(2542550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432486
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432492
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432496
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432501
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432504
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432505
     mainnetUTXOs->emplace_back(5206642650, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 432513
     mainnetUTXOs->emplace_back(6765000, "76a91400b698b72566f6207894d17c91b7bfe01b1fe75488ac"); // block 432514
     mainnetUTXOs->emplace_back(316682, "76a914963df639aad6c1b03a120b5653ebcf3540e8d95788ac"); // block 432521
@@ -9192,7 +8786,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432531
     mainnetUTXOs->emplace_back(2575675, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432535
     mainnetUTXOs->emplace_back(4932500, "76a9146de4717e776e4984b6071f00f161ed33c6e824b888ac"); // block 432535
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432539
     mainnetUTXOs->emplace_back(4922500, "76a914427dd2a367f1095f545878b4c9dcb2b6cebe645488ac"); // block 432542
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432545
     mainnetUTXOs->emplace_back(4925000, "76a914807220c39d8fe8f7f8db70e4144c22374afc044d88ac"); // block 432547
@@ -9204,94 +8797,60 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2542575, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432586
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432612
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432617
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432626
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432631
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432632
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432638
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432644
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432645
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432656
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432659
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432660
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432664
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432666
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432668
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432674
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432680
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432693
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432702
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432706
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432710
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432711
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432713
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432714
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432717
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432718
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432730
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432731
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432734
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432740
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432747
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432751
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432753
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432768
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432772
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432776
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432777
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432780
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432781
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432786
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432787
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432789
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432810
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432811
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432813
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432817
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432834
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432837
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432838
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432847
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432851
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432853
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432858
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432867
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432868
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432876
     mainnetUTXOs->emplace_back(5213419200, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 432881
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432897
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432898
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432906
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432918
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432926
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432938
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432954
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432955
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432962
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432965
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432968
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432974
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432975
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 432976
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432977
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432979
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 432985
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433000
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433001
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433018
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433024
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433026
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433030
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433032
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433041
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433042
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433048
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433051
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433052
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433057
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433069
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433074
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433084
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433085
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433090
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433091
     mainnetUTXOs->emplace_back(2564600, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433097
@@ -9301,31 +8860,23 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433118
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433130
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433131
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433133
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433135
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433140
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433147
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433155
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433158
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433165
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433167
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433168
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433169
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433172
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433182
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433185
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433187
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433195
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433203
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433207
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433208
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433212
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433231
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433233
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433236
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433244
     mainnetUTXOs->emplace_back(2542600, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433252
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433261
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433267
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433272
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433276
@@ -9336,48 +8887,38 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433289
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433294
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433304
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433312
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433315
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433317
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433318
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433319
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433321
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433335
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433341
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433347
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433348
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433349
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433353
     mainnetUTXOs->emplace_back(2553525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433356
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433357
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433372
     mainnetUTXOs->emplace_back(2546250, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433382
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433384
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433388
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433389
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433392
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433402
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433403
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433410
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433422
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433429
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433439
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433447
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433449
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433450
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433461
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433465
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433470
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433472
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433476
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433477
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433482
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433485
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433491
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433492
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433499
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433502
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433504
     mainnetUTXOs->emplace_back(5467527449, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 433506
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433512
@@ -9385,22 +8926,16 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433521
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433529
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433542
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433548
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433565
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433569
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433570
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433594
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433617
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433619
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433623
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433629
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433631
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433632
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433637
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433641
     mainnetUTXOs->emplace_back(2542475, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433655
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433664
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433665
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433670
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433676
@@ -9412,13 +8947,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433699
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433702
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433715
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433722
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433726
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433731
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433733
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433743
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433753
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433754
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433773
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433779
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433783
@@ -9426,34 +8959,22 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433797
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433807
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433808
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433811
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433814
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433822
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433829
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433848
-    mainnetUTXOs->emplace_back(1559010, "76a914ec3343bb4c63ba8704afb1c0998e452d5af53e8288ac"); // block 433851
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433854
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433855
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433858
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433862
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433870
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433875
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433877
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433879
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433883
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433886
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433898
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433908
     mainnetUTXOs->emplace_back(5449205025, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 433910
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433915
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433916
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433917
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433924
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433926
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433928
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433934
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433935
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433937
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433939
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433940
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433943
@@ -9466,14 +8987,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433959
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433969
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433973
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433974
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433981
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 433983
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433984
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433986
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433988
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 433997
-    mainnetUTXOs->emplace_back(2630651967, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 434000
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434020
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434037
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434038
@@ -9517,7 +9032,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434114
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434116
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434118
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434121
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434122
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434123
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434126
@@ -9615,7 +9129,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434228
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434238
     mainnetUTXOs->emplace_back(2542550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434240
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434241
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434244
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434245
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434246
@@ -9653,9 +9166,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434290
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434291
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434293
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434297
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434300
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434301
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434302
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434304
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434305
@@ -9664,7 +9174,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434314
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434319
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434320
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434321
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434325
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434326
@@ -9685,11 +9194,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434344
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434345
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434346
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434347
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434349
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434350
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434354
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434359
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434363
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434374
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434376
@@ -9699,7 +9205,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434385
     mainnetUTXOs->emplace_back(6191712450, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 434386
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434387
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434389
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434393
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434396
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434397
@@ -9751,7 +9256,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434457
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434458
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434462
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434464
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434469
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434472
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434474
@@ -9791,7 +9295,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434522
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434523
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434526
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434528
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434529
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434531
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434533
@@ -9836,14 +9339,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434589
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434608
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434614
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434622
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434624
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434629
     mainnetUTXOs->emplace_back(5203172700, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 434634
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434640
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434641
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434644
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434656
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434659
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434662
@@ -9873,8 +9374,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434694
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434698
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434705
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434707
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434709
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434711
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434712
     mainnetUTXOs->emplace_back(2542500, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434713
@@ -9923,15 +9422,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434812
     mainnetUTXOs->emplace_back(2505650, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434813
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434814
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434816
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434817
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434818
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434820
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434822
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434824
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434828
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434830
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434831
     mainnetUTXOs->emplace_back(5207377725, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 434833
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434834
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434835
@@ -9962,12 +9458,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434871
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434872
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434875
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434876
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434877
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434878
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434879
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434881
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434882
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434883
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434884
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434888
@@ -9993,7 +9487,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434912
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434917
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434918
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434920
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434921
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434922
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434923
@@ -10007,7 +9500,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434935
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434936
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434937
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434938
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434940
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434942
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434943
@@ -10033,7 +9525,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434968
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434971
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434973
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434975
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434976
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434977
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434978
@@ -10041,7 +9532,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434980
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434985
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434986
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 434988
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 434991
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434992
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 434994
@@ -10057,7 +9547,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435010
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435011
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435012
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435013
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435017
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435020
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435021
@@ -10068,15 +9557,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435030
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435031
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435032
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435034
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435035
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435036
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435037
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435038
     mainnetUTXOs->emplace_back(2590475, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435040
     mainnetUTXOs->emplace_back(5453590725, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435040
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435045
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435046
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435048
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435049
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435051
@@ -10104,7 +9590,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435079
     mainnetUTXOs->emplace_back(5692500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435080
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435084
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435085
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435086
     mainnetUTXOs->emplace_back(7523946612500, "76a91449f52c6e0e46514f6cd5005cabd7cf49d2a8ecf288ac"); // block 435087
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435088
@@ -10127,7 +9612,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435110
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435112
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435114
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435115
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435116
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435117
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435121
@@ -10138,7 +9622,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435129
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435130
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435131
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435132
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435133
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435134
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435137
@@ -10155,11 +9638,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435155
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435156
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435157
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435160
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435162
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435163
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435164
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435165
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435167
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435168
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435169
@@ -10181,12 +9662,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435191
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435192
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435199
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435203
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435204
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435207
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435208
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435210
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435211
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435212
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435213
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435214
@@ -10222,10 +9701,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435259
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435260
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435261
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435262
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435264
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435265
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435266
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435267
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435268
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435271
@@ -10245,7 +9722,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435287
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435289
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435290
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435291
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435292
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435293
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435294
@@ -10263,12 +9739,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435307
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435309
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435312
-    mainnetUTXOs->emplace_back(39142439, "76a914acf3606b81781965a5e29db437a2462920b467b588ac"); // block 435314
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435316
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435318
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435321
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435323
-    mainnetUTXOs->emplace_back(2600034512, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 435324
     mainnetUTXOs->emplace_back(2586800, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435327
     mainnetUTXOs->emplace_back(5454694574, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435327
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435330
@@ -10282,7 +9756,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435339
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435340
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435341
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435343
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435345
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435347
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435348
@@ -10320,7 +9793,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435401
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435402
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435404
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435405
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435406
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435409
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435411
@@ -10329,11 +9801,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435414
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435417
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435418
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435421
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435422
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435423
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435424
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435425
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435426
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435427
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435430
@@ -10350,7 +9820,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435446
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435447
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435448
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435450
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435452
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435453
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435454
@@ -10383,16 +9852,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2583175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435495
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435495
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435496
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435498
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435499
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435500
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435502
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435503
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435504
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435505
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435506
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435507
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435511
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435512
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435513
@@ -10430,7 +9896,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435554
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435557
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435559
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435560
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435563
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435564
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435566
@@ -10444,7 +9909,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435575
     mainnetUTXOs->emplace_back(258675000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435576
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435576
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435578
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435580
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435581
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435587
@@ -10488,7 +9952,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435642
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435643
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435644
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435645
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435646
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435648
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435650
@@ -10546,7 +10009,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435728
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435730
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435731
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435732
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435736
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435737
@@ -10582,7 +10044,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435781
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435782
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435784
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435785
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435786
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 435787
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435788
@@ -10624,7 +10085,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435845
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435846
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435848
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435850
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435851
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435852
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435853
@@ -10640,7 +10100,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435869
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435870
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435871
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435872
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435873
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435874
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435875
@@ -10711,7 +10170,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2583125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435962
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435962
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435963
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435965
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435968
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435969
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435970
@@ -10727,7 +10185,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435987
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435988
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435989
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 435992
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435993
     mainnetUTXOs->emplace_back(2605300, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 435994
     mainnetUTXOs->emplace_back(5948224425, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 435994
@@ -10759,7 +10216,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436034
     mainnetUTXOs->emplace_back(5940000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436035
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436037
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436038
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436039
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436040
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436044
@@ -10803,7 +10259,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436109
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436110
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436111
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436113
     mainnetUTXOs->emplace_back(2594225, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436115
     mainnetUTXOs->emplace_back(5455424700, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436115
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436116
@@ -10828,10 +10283,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436150
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436151
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436153
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436156
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436158
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436162
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436164
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436170
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436173
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436175
@@ -10841,7 +10293,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436192
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436193
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436194
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436195
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436196
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436206
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436207
@@ -10871,17 +10322,14 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436248
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436249
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436252
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436253
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436254
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436256
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436259
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436260
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436262
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436264
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436266
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436267
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436269
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436271
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436274
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436276
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436277
@@ -10892,7 +10340,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436283
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436284
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436287
-    mainnetUTXOs->emplace_back(2521134002, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 436288
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436289
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436290
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436291
@@ -10908,7 +10355,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436301
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436302
     mainnetUTXOs->emplace_back(2542600, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436303
-    mainnetUTXOs->emplace_back(2688497963, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 436303
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436304
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436305
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436306
@@ -10921,16 +10367,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436315
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436317
     mainnetUTXOs->emplace_back(2538850, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436318
-    mainnetUTXOs->emplace_back(2512292065, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 436318
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436319
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436321
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436322
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436323
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436325
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436329
-    mainnetUTXOs->emplace_back(2706640138, "76a9144b7a63c4f409f9122dcd202d4e9cb6e65629a98688ac"); // block 436331
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436334
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436335
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436336
@@ -10940,7 +10383,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436342
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436343
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436344
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436345
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436346
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436347
     mainnetUTXOs->emplace_back(5206080825, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436348
@@ -10957,13 +10399,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436365
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436366
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436367
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436368
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436369
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436372
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436373
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436375
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436376
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436377
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436379
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436381
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436382
@@ -10976,14 +10416,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436396
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436397
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436398
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436399
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436401
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436405
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436406
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436407
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436410
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436412
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436413
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436414
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436417
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436418
@@ -11015,7 +10453,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436458
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436459
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436460
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436461
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436462
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436464
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436465
@@ -11026,7 +10463,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436471
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436473
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436476
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436477
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436479
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436481
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436484
@@ -11040,10 +10476,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436493
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436494
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436496
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436497
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436498
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436499
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436501
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436504
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436505
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436508
@@ -11054,7 +10488,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436517
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436518
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436519
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436520
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436521
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436525
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436527
@@ -11080,12 +10513,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436557
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436558
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436560
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436563
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436564
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436565
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436566
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436567
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436570
     mainnetUTXOs->emplace_back(5948964450, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436571
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436572
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436573
@@ -11093,7 +10524,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436576
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436577
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436578
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436580
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436581
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436582
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436584
@@ -11116,7 +10546,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436614
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436615
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436617
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436619
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436620
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436621
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436626
@@ -11127,9 +10556,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436637
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436638
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436644
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436645
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436646
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436649
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436650
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436651
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436652
@@ -11153,7 +10580,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436678
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436679
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436681
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436684
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436685
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436686
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436692
@@ -11161,7 +10587,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436695
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436698
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436699
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436700
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436701
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436702
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436703
@@ -11184,17 +10609,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436734
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436735
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436737
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436740
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436742
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436743
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436744
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436745
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436746
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436747
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436748
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436749
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436751
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436752
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436754
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436756
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436757
@@ -11204,7 +10624,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436762
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436764
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436765
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436769
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436770
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436771
@@ -11215,7 +10634,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436780
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436781
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436782
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436783
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436784
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436786
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436787
@@ -11259,7 +10677,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436838
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436840
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436841
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436843
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436844
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436845
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436846
@@ -11288,7 +10705,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436876
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436877
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436878
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436879
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436880
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436882
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436883
@@ -11301,14 +10717,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436897
     mainnetUTXOs->emplace_back(5445000000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436898
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436901
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436902
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 436903
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436904
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436905
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436906
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436907
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436909
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436910
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436911
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436912
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436916
@@ -11354,7 +10768,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436974
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436975
     mainnetUTXOs->emplace_back(5947860599, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 436976
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 436977
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436978
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436980
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 436982
@@ -11391,16 +10804,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437029
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437031
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437037
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437038
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437042
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437043
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437045
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437048
     mainnetUTXOs->emplace_back(5208644924, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 437051
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437052
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437054
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437055
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437056
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437058
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437062
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437063
@@ -11508,7 +10918,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437168
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437169
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437170
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437171
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437172
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437173
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437174
@@ -11554,8 +10963,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437214
     mainnetUTXOs->emplace_back(6196095675, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437215
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437216
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437218
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437222
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437226
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437228
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437230
@@ -11564,23 +10971,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(5692500000, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437239
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437245
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437246
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437251
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437256
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437258
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437263
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437264
     mainnetUTXOs->emplace_back(5445000000, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437265
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437275
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437278
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437285
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437288
     mainnetUTXOs->emplace_back(5692500000, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437289
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437293
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437295
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437296
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437298
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437299
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437304
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437307
     mainnetUTXOs->emplace_back(5208654825, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437311
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437312
@@ -11596,10 +10993,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437329
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437331
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437333
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437335
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437336
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437338
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437340
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437342
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437343
@@ -11611,19 +11006,15 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437351
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437353
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437354
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437355
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437358
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437360
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437361
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437362
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437363
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437365
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437367
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437371
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437372
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437373
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437374
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437375
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437376
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437378
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437379
@@ -11666,13 +11057,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437434
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437436
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437439
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437442
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437444
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437445
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437446
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437448
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437449
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437450
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437451
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437453
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437455
@@ -11687,10 +11076,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(257932500, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437477
     mainnetUTXOs->emplace_back(5197500000, "76a914b543ec311d3e2042c53098368548cc9849b09eaa88ac"); // block 437477
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437478
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437479
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437489
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437500
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437505
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437508
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437511
@@ -11727,7 +11114,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437552
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437553
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437554
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437555
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437556
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437558
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437559
@@ -11876,7 +11262,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437733
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437735
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437736
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437737
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437738
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437739
@@ -11884,7 +11269,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437743
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437744
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437745
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437746
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437747
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437748
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437749
@@ -11927,7 +11311,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437805
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437807
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437809
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437810
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437811
     mainnetUTXOs->emplace_back(2516750, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437812
     mainnetUTXOs->emplace_back(32951837050, "76a91486998de8e835e06edaa7d8c0d6ac66124f4172ae88ac"); // block 437812
@@ -11937,7 +11320,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437817
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437819
     mainnetUTXOs->emplace_back(5189364753, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 437820
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437821
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437823
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437825
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437826
@@ -11950,9 +11332,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437835
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437836
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437839
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437841
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437842
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437843
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 437845
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437849
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437850
@@ -11982,7 +11362,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437878
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437880
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437881
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 437882
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437884
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437885
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 437886
@@ -12066,7 +11445,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438009
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438010
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438011
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438013
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438014
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438016
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438017
@@ -12074,7 +11452,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438019
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438021
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438022
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438023
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438026
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438027
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438029
@@ -12108,7 +11485,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438054
     mainnetUTXOs->emplace_back(2526950, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438055
     mainnetUTXOs->emplace_back(2.7516324844982E+14, "76a91422045bff5abc0f726e526ddbf2ccfba1c348c47088ac"); // block 438055
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438057
     mainnetUTXOs->emplace_back(2.3309580698064E+14, "76a91422045bff5abc0f726e526ddbf2ccfba1c348c47088ac"); // block 438058
     mainnetUTXOs->emplace_back(292044, "76a914de2a244ee03e1009fabc6d94cf7e74062c9a001888ac"); // block 438058
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438059
@@ -12133,14 +11509,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438082
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438084
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438085
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438086
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438087
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438088
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438089
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438090
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438091
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438092
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438095
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438096
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438097
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438098
@@ -12164,7 +11537,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438127
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438128
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438129
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438131
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438132
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438133
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438135
@@ -12172,7 +11544,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438137
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438138
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438139
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438142
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438143
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438145
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438146
@@ -12193,7 +11564,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438164
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438165
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438166
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438167
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438168
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438171
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438172
@@ -12214,7 +11584,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438195
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438196
     mainnetUTXOs->emplace_back(2579450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438197
-    mainnetUTXOs->emplace_back(5005505913, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438197
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438198
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438199
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438202
@@ -12226,7 +11595,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438209
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438210
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438211
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438212
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438214
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438215
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438217
@@ -12247,8 +11615,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438236
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438237
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438238
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438239
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438240
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438241
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438242
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438246
@@ -12271,18 +11637,15 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438271
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438272
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438273
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438274
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438275
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438277
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438279
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438280
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438281
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438282
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438284
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438285
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438288
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438291
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438292
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438294
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438295
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438296
@@ -12295,14 +11658,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438306
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438308
     mainnetUTXOs->emplace_back(2601475, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438309
-    mainnetUTXOs->emplace_back(5700365550, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438309
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438311
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438317
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438321
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438323
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438325
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438326
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438328
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438329
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438330
@@ -12321,9 +11682,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438352
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438353
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438354
-    mainnetUTXOs->emplace_back(5940000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438356
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438357
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438358
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438360
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438361
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438362
@@ -12351,7 +11710,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438396
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438397
     mainnetUTXOs->emplace_back(258315000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438398
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438398
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438400
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438401
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438402
@@ -12378,14 +11736,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438436
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438437
     mainnetUTXOs->emplace_back(2583100, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438438
-    mainnetUTXOs->emplace_back(5207546025, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438438
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438439
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438440
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438441
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438442
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438444
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438447
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438448
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438451
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438452
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438453
@@ -12398,12 +11754,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438465
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438468
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438469
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438470
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438471
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438472
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438473
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438476
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438479
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438480
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438483
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438484
@@ -12427,7 +11781,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438507
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438510
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438512
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438514
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438515
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438516
@@ -12447,7 +11800,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438537
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438542
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438545
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438546
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438547
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438549
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438550
@@ -12460,7 +11812,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438560
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438561
     mainnetUTXOs->emplace_back(2601550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438563
-    mainnetUTXOs->emplace_back(5700726899, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438563
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438565
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438566
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438567
@@ -12473,7 +11824,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438580
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438581
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438582
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438583
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438584
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438586
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438587
@@ -12492,9 +11842,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438608
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438609
     mainnetUTXOs->emplace_back(2597750, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438610
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438610
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438612
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438613
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438615
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438617
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438618
@@ -12510,15 +11858,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438640
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438643
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438645
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438647
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438648
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438649
     mainnetUTXOs->emplace_back(2750000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438650
     mainnetUTXOs->emplace_back(125058639700, "76a914a5e4b11d686e3c174958139e4d0fb66e3619d6d488ac"); // block 438650
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438651
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438652
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438653
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438655
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438656
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438658
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438659
@@ -12533,19 +11878,15 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438677
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438678
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438679
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438682
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438683
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438684
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438687
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438688
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438690
     mainnetUTXOs->emplace_back(258675000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438691
-    mainnetUTXOs->emplace_back(5455053449, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438691
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438696
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438698
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438699
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438700
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438701
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438703
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438704
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438705
@@ -12568,21 +11909,17 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438732
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438734
     mainnetUTXOs->emplace_back(2586775, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438735
-    mainnetUTXOs->emplace_back(5454677249, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438735
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438736
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438739
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438741
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438742
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438743
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438744
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438745
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438747
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438750
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438751
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438752
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438753
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438756
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438757
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438759
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438761
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438762
@@ -12600,7 +11937,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438780
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438781
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438782
-    mainnetUTXOs->emplace_back(5222250000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438784
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438785
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438786
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438787
@@ -12615,7 +11951,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438797
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438798
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438803
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438805
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438806
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438808
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438809
@@ -12634,14 +11969,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438828
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438831
     mainnetUTXOs->emplace_back(260157500, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438832
-    mainnetUTXOs->emplace_back(5692500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438832
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438833
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438834
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438835
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438836
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438837
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438839
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438840
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438841
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438845
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438847
@@ -12664,7 +11996,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438871
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438872
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438873
-    mainnetUTXOs->emplace_back(5453590725, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438874
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438875
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438876
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438877
@@ -12697,7 +12028,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438912
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438913
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438914
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438916
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438918
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438919
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438921
@@ -12733,7 +12063,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438964
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438965
     mainnetUTXOs->emplace_back(2583100, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438967
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 438967
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438968
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438969
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 438972
@@ -12757,10 +12086,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438995
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438996
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 438998
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 438999
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439000
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439001
-    mainnetUTXOs->emplace_back(5692500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439002
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439003
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439004
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439008
@@ -12814,7 +12141,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439060
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439061
     mainnetUTXOs->emplace_back(2630950, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439062
-    mainnetUTXOs->emplace_back(8415000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439062
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439063
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439064
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439065
@@ -12847,7 +12173,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439092
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439093
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439094
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439095
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439096
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439097
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439098
@@ -12861,7 +12186,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439107
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439109
     mainnetUTXOs->emplace_back(2620025, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439110
-    mainnetUTXOs->emplace_back(7680726899, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439110
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439111
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439112
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439113
@@ -12942,11 +12266,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439195
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439196
     mainnetUTXOs->emplace_back(2583100, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439198
-    mainnetUTXOs->emplace_back(5284386627, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439198
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439199
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439200
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439201
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439205
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439206
     mainnetUTXOs->emplace_back(5227308849, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 439207
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439208
@@ -12955,7 +12277,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439212
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439215
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439216
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439217
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439218
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439219
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439221
@@ -12970,17 +12291,14 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439233
     mainnetUTXOs->emplace_back(2594075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439234
     mainnetUTXOs->emplace_back(5831422566, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 439234
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439235
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439236
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439237
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439238
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439239
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439240
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439241
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439242
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439244
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439245
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439246
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439248
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439249
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439251
@@ -13022,18 +12340,15 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439309
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439310
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439311
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439312
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439313
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439314
     mainnetUTXOs->emplace_back(2605200, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439315
-    mainnetUTXOs->emplace_back(5689654589, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439315
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439317
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439318
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439322
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439323
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439324
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439325
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439326
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439327
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439331
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439335
@@ -13045,17 +12360,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439346
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439347
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439350
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439351
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439352
     mainnetUTXOs->emplace_back(2579500, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439353
-    mainnetUTXOs->emplace_back(5206813425, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439353
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439355
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439356
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439357
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439358
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439359
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439360
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439361
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439362
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439364
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439365
@@ -13087,7 +12397,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439399
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439400
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439401
-    mainnetUTXOs->emplace_back(6196818375, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439402
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439403
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439405
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439406
@@ -13122,9 +12431,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439446
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439447
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439449
-    mainnetUTXOs->emplace_back(5207914800, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439451
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439452
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439453
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439454
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439456
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439457
@@ -13151,7 +12458,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439487
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439488
     mainnetUTXOs->emplace_back(2586825, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439489
-    mainnetUTXOs->emplace_back(5700370500, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439489
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439491
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439492
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439494
@@ -13166,16 +12472,13 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439510
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439513
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439515
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439516
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439520
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439522
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439523
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439527
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439528
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439530
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439532
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439533
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439535
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439536
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439538
@@ -13198,7 +12501,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439560
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439562
     mainnetUTXOs->emplace_back(2594175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439565
-    mainnetUTXOs->emplace_back(5940000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439565
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439566
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439567
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439571
@@ -13208,7 +12510,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439577
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439578
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439579
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439580
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439583
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439584
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439585
@@ -13219,8 +12520,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439594
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439597
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439598
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439599
-    mainnetUTXOs->emplace_back(5701095675, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439600
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439601
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439602
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439603
@@ -13251,7 +12550,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439639
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439640
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439641
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439644
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439646
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439649
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439650
@@ -13259,20 +12557,15 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439652
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439653
     mainnetUTXOs->emplace_back(2579425, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439654
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439654
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439656
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439657
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439659
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439660
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439661
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439663
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439664
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439665
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439667
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439668
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439669
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439670
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439671
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439674
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439676
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439677
@@ -13285,7 +12578,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439691
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439692
     mainnetUTXOs->emplace_back(2583125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439695
-    mainnetUTXOs->emplace_back(5206823325, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439695
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439698
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439701
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439704
@@ -13312,7 +12604,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439733
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439734
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439735
-    mainnetUTXOs->emplace_back(5692500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439736
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439738
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439740
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439743
@@ -13334,7 +12625,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439769
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439771
     mainnetUTXOs->emplace_back(2583075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439773
-    mainnetUTXOs->emplace_back(5205363075, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439773
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439774
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439775
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439776
@@ -13350,7 +12640,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439788
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439790
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439791
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439792
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439793
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439794
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439795
@@ -13365,7 +12654,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439808
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439809
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439812
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439813
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439815
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439816
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439818
@@ -13373,7 +12661,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439822
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439824
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439825
-    mainnetUTXOs->emplace_back(6195729375, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439827
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439829
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439830
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439831
@@ -13383,7 +12670,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439835
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439836
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439838
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439840
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439842
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439844
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439845
@@ -13400,7 +12686,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439862
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439863
     mainnetUTXOs->emplace_back(259045000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439864
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439864
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439866
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439867
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439870
@@ -13412,7 +12697,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439881
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439882
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439883
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439884
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439885
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439886
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439887
@@ -13432,7 +12716,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439905
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439907
     mainnetUTXOs->emplace_back(2586875, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439908
-    mainnetUTXOs->emplace_back(5453224425, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439908
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439909
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439910
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439912
@@ -13473,33 +12756,19 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439950
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 439951
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439952
-    mainnetUTXOs->emplace_back(6187500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439953
     mainnetUTXOs->emplace_back(15249714554, "76a914090fe28f6a4d1af6296df124fcb9ed761d5c2b3988ac"); // block 439953
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439954
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439958
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439962
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439964
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439965
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439966
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439967
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439976
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439978
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 439980
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439981
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439993
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 439997
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 439998
     mainnetUTXOs->emplace_back(125475996750, "76a914a5e4b11d686e3c174958139e4d0fb66e3619d6d488ac"); // block 439998
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440002
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440003
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440007
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440010
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440011
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440017
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440036
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440047
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440048
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440050
     mainnetUTXOs->emplace_back(267520000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440051
     mainnetUTXOs->emplace_back(11499700124, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 440051
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440052
@@ -13507,21 +12776,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440054
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440055
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440056
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440058
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440060
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440062
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440067
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440073
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440082
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440088
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440090
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440101
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440107
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440108
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440112
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440116
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440117
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440119
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440120
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440123
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440124
@@ -13624,7 +12883,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440220
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440221
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440222
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440225
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440226
     mainnetUTXOs->emplace_back(11395000000, "76a914090fe28f6a4d1af6296df124fcb9ed761d5c2b3988ac"); // block 440227
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440228
@@ -13708,7 +12966,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440331
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440332
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440333
-    mainnetUTXOs->emplace_back(5047029543, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440334
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440340
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440341
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440342
@@ -13733,33 +12990,25 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440363
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440364
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440365
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440366
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440367
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440368
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440370
-    mainnetUTXOs->emplace_back(5692500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440371
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440372
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440373
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440375
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440376
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440381
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440383
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440385
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440386
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440387
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440388
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440389
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440390
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440392
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440394
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440395
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440396
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440398
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440400
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440402
-    mainnetUTXOs->emplace_back(5219054775, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440403
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440404
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440405
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440406
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440407
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440408
@@ -13771,7 +13020,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440415
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440416
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440417
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440419
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440421
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440425
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440427
@@ -13789,7 +13037,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440442
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440443
     mainnetUTXOs->emplace_back(257940000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440444
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440444
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440447
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440448
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440449
@@ -13817,15 +13064,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440489
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440490
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440491
-    mainnetUTXOs->emplace_back(6187500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440492
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440493
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440494
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440495
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440496
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440497
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440498
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440502
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440504
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440506
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440508
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440512
@@ -13833,17 +13077,14 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440519
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440520
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440522
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440524
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440527
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440528
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440529
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440530
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440532
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440533
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440536
     mainnetUTXOs->emplace_back(2583075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440539
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440539
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440540
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440541
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440542
@@ -13858,13 +13099,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440552
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440553
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440554
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440555
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440558
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440559
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440560
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440561
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440562
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440563
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440564
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440566
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440567
@@ -13874,7 +13113,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440573
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440574
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440576
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440577
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440578
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440579
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440580
@@ -13883,7 +13121,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440583
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440585
     mainnetUTXOs->emplace_back(2583150, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440586
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440586
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440587
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440590
@@ -13909,14 +13146,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440615
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440617
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440618
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440620
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440621
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440622
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440624
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440627
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440628
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440629
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440633
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440635
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440637
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440639
@@ -13924,15 +13157,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440641
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440642
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440644
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440645
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440646
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440647
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440648
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440655
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440656
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440657
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440659
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440660
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440661
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440662
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440665
@@ -13940,11 +13169,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440668
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440670
     mainnetUTXOs->emplace_back(2616100, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440671
-    mainnetUTXOs->emplace_back(5453224425, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440671
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440672
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440673
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440676
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440677
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440678
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440679
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440680
@@ -13953,7 +13180,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440684
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440687
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440692
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440693
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440694
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440695
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440696
@@ -13968,7 +13194,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440711
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440712
     mainnetUTXOs->emplace_back(2586775, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440713
-    mainnetUTXOs->emplace_back(5453231850, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440713
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440714
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440716
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440717
@@ -13979,7 +13204,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440725
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440726
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440728
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440729
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440730
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440731
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440733
@@ -13990,12 +13214,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440741
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440742
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440744
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440745
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440747
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440748
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440749
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440750
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440751
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440752
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440753
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440754
@@ -14004,7 +13225,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440758
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440759
     mainnetUTXOs->emplace_back(2579450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440763
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440763
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440766
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440767
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440769
@@ -14030,12 +13250,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440803
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440804
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440806
-    mainnetUTXOs->emplace_back(5951493900, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440807
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440808
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440809
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440814
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440815
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440819
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440820
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440823
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440824
@@ -14047,7 +13265,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440831
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440832
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440833
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440834
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440836
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440838
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440840
@@ -14055,7 +13272,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440847
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440848
     mainnetUTXOs->emplace_back(2612525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440849
-    mainnetUTXOs->emplace_back(5453590725, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440849
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440854
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440855
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440857
@@ -14079,14 +13295,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440884
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440885
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440887
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440888
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440889
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440890
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440891
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440892
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440894
     mainnetUTXOs->emplace_back(2616350, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440895
-    mainnetUTXOs->emplace_back(5205365550, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440895
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440896
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440898
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440899
@@ -14095,7 +13309,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440903
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440904
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440905
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440907
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440909
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440912
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440914
@@ -14108,7 +13321,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440928
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440929
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440930
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440931
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440932
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440934
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440935
@@ -14117,7 +13329,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440940
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440942
     mainnetUTXOs->emplace_back(2586725, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440943
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440943
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440945
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440947
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440948
@@ -14146,12 +13357,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440979
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440982
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440984
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 440985
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440986
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440987
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440988
     mainnetUTXOs->emplace_back(258680000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440991
-    mainnetUTXOs->emplace_back(5456139975, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 440991
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440992
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440993
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440994
@@ -14159,7 +13368,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 440996
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440997
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 440999
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441000
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441001
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441002
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441010
@@ -14169,7 +13377,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441019
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441021
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441022
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441025
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441027
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441030
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441031
@@ -14179,7 +13386,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441038
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441039
     mainnetUTXOs->emplace_back(2579450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441040
-    mainnetUTXOs->emplace_back(5209018650, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441040
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441042
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441043
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441044
@@ -14187,29 +13393,22 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441046
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441047
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441048
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441049
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441050
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441051
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441052
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441053
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441054
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441055
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441058
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441059
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441060
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441061
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441062
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441063
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441064
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441067
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441068
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441069
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441070
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441072
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441074
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441076
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441078
-    mainnetUTXOs->emplace_back(6443585774, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441081
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441083
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441084
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441086
@@ -14220,7 +13419,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441093
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441096
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441097
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441098
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441099
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441101
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441104
@@ -14237,21 +13435,16 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441122
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441123
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441124
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441129
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441131
     mainnetUTXOs->emplace_back(2597700, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441132
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441132
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441133
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441134
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441136
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441137
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441138
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441139
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441140
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441144
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441145
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441146
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441147
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441148
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441149
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441150
@@ -14266,7 +13459,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441160
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441161
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441165
-    mainnetUTXOs->emplace_back(5452865550, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441166
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441168
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441169
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441170
@@ -14288,12 +13480,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441192
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441193
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441195
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441197
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441198
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441199
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441200
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441202
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441205
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441208
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441209
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441211
@@ -14307,11 +13497,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441219
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441220
     mainnetUTXOs->emplace_back(2601575, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441221
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441221
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441222
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441223
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441224
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441227
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441228
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441229
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441230
@@ -14331,43 +13519,35 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441250
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441253
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441255
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441257
     mainnetUTXOs->emplace_back(2583075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441258
-    mainnetUTXOs->emplace_back(5207172300, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441258
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441261
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441262
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441263
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441266
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441267
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441268
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441270
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441274
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441277
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441279
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441281
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441282
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441283
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441285
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441286
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441287
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441288
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441289
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441290
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441291
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441292
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441293
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441294
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441296
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441298
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441299
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441302
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441304
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441306
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441307
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441308
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441309
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441310
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441312
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441313
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441317
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441318
@@ -14381,7 +13561,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441330
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441331
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441332
-    mainnetUTXOs->emplace_back(5455055925, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441333
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441334
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441335
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441336
@@ -14404,11 +13583,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441358
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441360
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441361
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441362
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441363
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441365
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441366
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441367
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441369
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441370
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441371
@@ -14421,7 +13598,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441382
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441383
     mainnetUTXOs->emplace_back(2605150, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441384
-    mainnetUTXOs->emplace_back(5205724425, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441384
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441385
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441386
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441387
@@ -14444,24 +13620,19 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441417
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441418
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441419
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441420
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441421
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441422
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441423
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441424
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441427
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441428
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441429
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441430
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441431
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441432
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441434
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441435
     mainnetUTXOs->emplace_back(2601450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441437
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441437
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441438
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441439
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441441
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441443
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441447
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441448
@@ -14473,7 +13644,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441461
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441462
     mainnetUTXOs->emplace_back(2601500, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441464
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441464
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441465
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441466
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441468
@@ -14486,7 +13656,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441478
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441479
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441480
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441481
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441482
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441483
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441484
@@ -14503,12 +13672,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441501
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441503
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441506
-    mainnetUTXOs->emplace_back(5207909850, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441508
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441509
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441510
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441511
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441512
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441513
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441517
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441518
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441520
@@ -14519,10 +13686,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441532
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441536
     mainnetUTXOs->emplace_back(2594050, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441543
-    mainnetUTXOs->emplace_back(5207543550, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441543
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441544
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441545
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441546
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441547
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441548
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441549
@@ -14530,7 +13695,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441551
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441552
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441553
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441554
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441555
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441557
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441560
@@ -14550,13 +13714,10 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441580
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441582
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441583
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441584
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441587
     mainnetUTXOs->emplace_back(2616325, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441588
-    mainnetUTXOs->emplace_back(5974798500, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441588
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441590
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441591
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441592
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441593
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441595
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441596
@@ -14584,7 +13745,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441627
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441628
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441630
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441631
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441633
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441634
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441635
@@ -14594,16 +13754,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441642
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441644
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441645
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441647
     mainnetUTXOs->emplace_back(2601525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441648
-    mainnetUTXOs->emplace_back(5454310949, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441648
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441649
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441650
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441651
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441652
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441653
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441654
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441655
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441657
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441659
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441661
@@ -14620,9 +13776,7 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441676
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441678
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441679
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441681
     mainnetUTXOs->emplace_back(2583200, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441682
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441682
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441683
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441684
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441686
@@ -14634,20 +13788,16 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441695
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441696
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441697
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441698
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441699
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441700
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441701
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441702
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441703
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441704
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441705
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441706
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441708
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441711
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441712
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441713
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441714
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441715
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441716
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441717
@@ -14660,7 +13810,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441724
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441725
     mainnetUTXOs->emplace_back(2590450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441726
-    mainnetUTXOs->emplace_back(5951516175, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441726
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441727
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441728
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441729
@@ -14707,7 +13856,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441769
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441770
     mainnetUTXOs->emplace_back(2616350, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441771
-    mainnetUTXOs->emplace_back(6445050975, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441771
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441772
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441773
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441774
@@ -14727,7 +13875,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441791
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441792
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441793
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441795
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441796
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441797
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441798
@@ -14738,16 +13885,12 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441804
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441805
     mainnetUTXOs->emplace_back(2601375, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441807
-    mainnetUTXOs->emplace_back(5205736800, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441807
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441808
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441809
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441811
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441813
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441814
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441815
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441816
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441817
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441818
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441819
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441820
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441823
@@ -14756,13 +13899,11 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441828
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441830
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441831
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441832
     mainnetUTXOs->emplace_back(2579300, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441833
     mainnetUTXOs->emplace_back(5109584187, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 441833
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441834
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441836
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441837
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441838
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441839
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441842
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441843
@@ -14771,7 +13912,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441846
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441849
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441850
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441851
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441852
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441853
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441854
@@ -14800,21 +13940,17 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441885
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441887
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441888
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441890
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441891
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441892
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441893
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441894
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441896
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441897
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441898
     mainnetUTXOs->emplace_back(2579400, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441899
-    mainnetUTXOs->emplace_back(5179210612, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441899
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441901
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441902
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441907
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441908
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441910
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441912
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441913
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441914
@@ -14828,7 +13964,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441923
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441925
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441927
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441928
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441929
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441930
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441931
@@ -14836,12 +13971,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441934
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441936
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441938
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441939
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 441940
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441941
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441942
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441943
-    mainnetUTXOs->emplace_back(5957886824, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441944
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441945
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441946
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441948
@@ -14867,7 +13999,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441979
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441980
     mainnetUTXOs->emplace_back(2590425, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441982
-    mainnetUTXOs->emplace_back(5692500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 441982
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441986
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441988
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441989
@@ -14876,7 +14007,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441993
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 441994
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441997
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 441999
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442001
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442002
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442005
@@ -14891,7 +14021,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442018
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442021
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442022
-    mainnetUTXOs->emplace_back(5700360599, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 442028
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442029
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442031
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442032
@@ -14910,7 +14039,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442052
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442055
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442057
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442058
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442059
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442060
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442061
@@ -14920,7 +14048,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442066
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442067
     mainnetUTXOs->emplace_back(259050000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442072
-    mainnetUTXOs->emplace_back(5197500000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 442072
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442073
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442074
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442077
@@ -14953,10 +14080,8 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442111
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442113
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442115
-    mainnetUTXOs->emplace_back(5453952074, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 442116
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442118
     mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442119
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442120
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442121
     mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442123
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442124
@@ -14972,7 +14097,6 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442136
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442137
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442138
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442139
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442140
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442141
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442142
@@ -14989,13 +14113,9 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442155
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442156
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442157
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442158
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442160
-    mainnetUTXOs->emplace_back(5445000000, "76a914637b70d3fae0db3dd91675dfada5f5c7852b530c88ac"); // block 442161
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442163
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442164
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442165
-    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442166
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442169
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442171
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442173
@@ -15004,6 +14124,886 @@ std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442178
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442179
     mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442182
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442183
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442184
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442186
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442190
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442193
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442196
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442197
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442198
+    mainnetUTXOs->emplace_back(2594175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442201
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442202
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442203
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442204
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442205
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442206
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442207
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442208
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442209
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442210
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442212
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442213
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442215
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442217
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442218
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442221
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442222
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442224
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442226
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442228
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442230
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442231
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442232
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442233
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442234
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442235
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442236
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442237
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442238
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442239
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442240
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442241
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442243
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442244
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442248
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442249
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442250
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442251
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442254
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442256
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442257
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442259
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442260
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442266
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442267
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442268
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442270
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442271
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442273
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442274
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442276
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442277
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442278
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442280
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442282
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442283
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442285
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442286
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442288
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442289
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442290
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442292
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442293
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442296
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442297
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442298
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442300
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442302
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442303
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442304
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442305
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442307
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442308
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442309
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442311
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442312
+    mainnetUTXOs->emplace_back(2583100, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442313
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442314
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442315
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442316
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442320
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442322
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442324
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442325
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442328
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442329
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442330
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442331
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442332
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442333
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442334
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442335
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442336
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442337
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442339
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442340
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442341
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442343
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442345
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442346
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442347
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442348
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442349
+    mainnetUTXOs->emplace_back(2583150, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442351
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442352
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442353
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442354
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442355
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442356
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442358
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442359
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442360
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442362
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442363
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442366
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442367
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442370
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442371
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442375
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442376
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442378
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442379
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442380
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442383
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442384
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442387
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442388
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442389
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442390
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442391
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442392
+    mainnetUTXOs->emplace_back(258310000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442394
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442395
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442396
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442397
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442398
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442400
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442401
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442402
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442403
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442404
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442405
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442407
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442410
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442411
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442414
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442416
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442417
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442419
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442420
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442421
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442422
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442423
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442424
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442425
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442426
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442428
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442432
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442433
+    mainnetUTXOs->emplace_back(2586800, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442436
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442437
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442438
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442439
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442440
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442441
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442442
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442443
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442444
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442446
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442447
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442448
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442450
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442451
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442452
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442453
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442454
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442455
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442456
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442457
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442458
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442461
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442462
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442463
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442464
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442465
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442471
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442472
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442474
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442475
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442478
+    mainnetUTXOs->emplace_back(2579450, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442480
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442481
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442482
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442483
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442486
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442487
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442489
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442491
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442494
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442496
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442497
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442498
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442499
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442500
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442501
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442502
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442503
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442504
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442506
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442508
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442510
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442514
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442516
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442517
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442518
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442519
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442523
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442527
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442528
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442531
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442532
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442535
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442536
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442537
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442539
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442540
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442541
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442542
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442548
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442549
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442551
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442552
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442553
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442554
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442555
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442557
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442558
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442559
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442560
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442562
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442563
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442569
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442572
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442573
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442575
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442578
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442581
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442582
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442584
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442585
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442587
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442588
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442589
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442590
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442591
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442592
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442594
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442595
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442596
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442599
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442600
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442601
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442602
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442603
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442604
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442605
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442606
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442607
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442608
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442609
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442613
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442615
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442616
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442618
+    mainnetUTXOs->emplace_back(2590525, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442619
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442620
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442622
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442624
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442625
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442626
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442627
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442629
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442631
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442632
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442633
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442634
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442635
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442638
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442639
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442640
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442641
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442642
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442644
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442649
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442650
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442651
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442653
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442655
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442656
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442659
+    mainnetUTXOs->emplace_back(2594175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442660
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442661
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442662
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442663
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442664
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442665
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442666
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442668
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442669
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442670
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442672
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442673
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442674
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442675
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442676
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442678
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442679
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442680
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442681
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442683
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442684
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442686
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442687
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442688
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442690
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442691
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442695
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442697
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442699
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442700
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442701
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442702
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442703
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442705
+    mainnetUTXOs->emplace_back(2586750, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442707
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442708
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442709
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442710
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442711
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442712
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442715
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442717
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442718
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442719
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442720
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442721
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442722
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442723
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442724
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442726
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442727
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442731
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442732
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442736
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442738
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442739
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442742
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442744
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442745
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442749
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442752
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442753
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442754
+    mainnetUTXOs->emplace_back(259050000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442755
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442760
+    mainnetUTXOs->emplace_back(2750000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442763
+    mainnetUTXOs->emplace_back(125217375350, "76a914a5e4b11d686e3c174958139e4d0fb66e3619d6d488ac"); // block 442763
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442764
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442767
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442769
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442770
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442772
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442774
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442776
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442777
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442778
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442780
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442781
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442782
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442783
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442786
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442787
+    mainnetUTXOs->emplace_back(2583175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442788
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442789
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442790
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442793
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442794
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442795
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442797
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442798
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442800
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442801
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442802
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442803
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442805
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442807
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442810
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442811
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442812
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442817
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442819
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442820
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442821
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442822
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442824
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442827
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442829
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442830
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442831
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442832
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442833
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442834
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442835
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442836
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442837
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442839
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442840
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442842
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442843
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442844
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442845
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442846
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442848
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442850
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442851
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442854
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442855
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442857
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442858
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442859
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442860
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442863
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442865
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442866
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442869
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442870
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442871
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442875
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442877
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442878
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442879
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442880
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442881
+    mainnetUTXOs->emplace_back(2583125, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442882
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442883
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442885
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442886
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442888
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442890
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442892
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442893
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442894
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442895
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442896
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442897
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442901
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442902
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442904
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442908
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442909
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442913
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442915
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442916
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442917
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442918
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442919
+    mainnetUTXOs->emplace_back(2583075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442920
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442921
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442923
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442924
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442925
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442926
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442927
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442928
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442929
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442931
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442932
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442933
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 442935
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442939
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442940
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442941
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442942
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442943
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442944
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442945
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442946
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442947
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442948
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442949
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442950
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442951
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442952
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442953
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442954
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442955
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442956
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442957
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442958
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442959
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442960
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442961
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442962
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442963
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442964
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442965
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442966
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442967
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442968
+    mainnetUTXOs->emplace_back(2612650, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442969
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442970
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442971
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442972
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442973
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442974
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442975
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442976
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442977
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442978
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442979
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442980
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 442981
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442982
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442983
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442984
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442985
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442986
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442987
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442988
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442989
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442990
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442991
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442992
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442993
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442994
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442995
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442996
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442997
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442998
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 442999
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443000
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443001
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443002
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443003
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443004
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443005
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443006
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443007
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443008
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443009
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443010
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443011
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443012
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443013
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443014
+    mainnetUTXOs->emplace_back(2608975, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443015
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443016
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443017
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443019
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443020
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443021
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443022
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443023
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443025
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443026
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443027
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443028
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443029
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443030
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443031
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443032
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443035
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443036
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443037
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443038
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443039
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443041
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443044
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443046
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443047
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443048
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443051
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443052
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443053
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443054
+    mainnetUTXOs->emplace_back(2597925, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443055
+    mainnetUTXOs->emplace_back(6428027740, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 443055
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443056
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443059
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443060
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443061
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443063
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443067
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443069
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443070
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443072
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443073
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443074
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443076
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443077
+    mainnetUTXOs->emplace_back(5486351235, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 443079
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443085
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443087
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443089
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443091
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443092
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443093
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443095
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443096
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443098
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443100
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443101
+    mainnetUTXOs->emplace_back(5667395802, "76a914833d291a75589f6f26ddc6f746b2754de6b23ac588ac"); // block 443103
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443104
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443105
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443106
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443107
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443109
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443112
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443114
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443115
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443116
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443118
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443120
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443121
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443123
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443124
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443125
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443127
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443128
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443130
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443132
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443133
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443136
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443138
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443139
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443141
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443144
+    mainnetUTXOs->emplace_back(258310000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443145
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443147
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443148
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443149
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443150
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443153
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443156
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443157
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443158
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443159
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443160
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443163
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443166
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443168
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443169
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443170
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443171
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443172
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443173
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443175
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443176
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443179
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443180
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443182
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443184
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443185
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443186
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443187
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443188
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443189
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443190
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443191
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443192
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443193
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443197
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443198
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443199
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443200
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443201
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443202
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443203
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443204
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443206
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443207
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443208
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443210
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443211
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443214
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443215
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443216
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443219
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443220
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443222
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443225
+    mainnetUTXOs->emplace_back(2579475, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443227
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443228
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443229
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443230
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443232
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443233
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443235
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443236
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443238
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443239
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443240
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443241
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443242
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443243
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443244
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443246
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443247
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443249
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443250
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443251
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443252
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443253
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443254
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443256
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443258
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443260
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443262
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443264
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443269
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443270
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443273
+    mainnetUTXOs->emplace_back(2583075, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443274
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443276
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443277
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443278
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443281
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443283
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443284
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443285
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443287
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443291
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443293
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443294
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443297
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443299
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443301
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443302
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443303
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443304
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443305
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443306
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443307
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443308
+    mainnetUTXOs->emplace_back(2612550, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443310
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443311
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443312
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443313
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443314
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443315
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443316
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443317
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443318
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443319
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443321
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443322
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443324
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443328
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443330
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443331
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443332
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443333
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443334
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443337
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443338
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443339
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443342
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443343
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443345
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443346
+    mainnetUTXOs->emplace_back(2590475, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443347
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443349
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443350
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443352
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443353
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443354
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443355
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443357
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443360
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443361
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443362
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443363
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443364
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443365
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443366
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443367
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443368
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443370
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443371
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443375
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443376
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443377
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443380
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443382
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443383
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443384
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443386
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443387
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443389
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443390
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443391
+    mainnetUTXOs->emplace_back(2594175, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443392
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443393
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443394
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443397
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443398
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443400
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443401
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443402
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443403
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443406
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443407
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443408
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443410
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443411
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443412
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443415
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443416
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443418
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443422
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443423
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443425
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443426
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443428
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443429
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443434
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443435
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443436
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443438
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443441
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443442
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443443
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443445
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443446
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443450
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443454
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443455
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443456
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443457
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443458
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443459
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443460
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443462
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443463
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443465
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443466
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443468
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443469
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443470
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443471
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443472
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443473
+    mainnetUTXOs->emplace_back(250000000, "76a91487f318b1ccfb0b57086542228e7438c528356cf988ac"); // block 443474
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443475
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443479
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443480
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443482
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443483
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443485
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443486
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443487
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443488
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443489
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443490
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443491
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443493
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443496
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443498
+    mainnetUTXOs->emplace_back(250000000, "76a91456c7dd74cf5b9d68cfd30fd0ad72466e818acbd988ac"); // block 443499
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443500
+    mainnetUTXOs->emplace_back(2500000, "76a91499e08163897bdf77b6e5612d153a057fd5ff924988ac"); // block 443501
 
     return mainnetUTXOs;
 }

@@ -1,6 +1,6 @@
 #include <chainparamblocks.h>
 
-std::shared_ptr<std::vector<std::pair<int64_t, std::string> > > GamecoinBlocks::transactions_block_seven()
+blockUTXO GamecoinBlocks::transactions_block_seven()
 {
     auto mainnetUTXOs = std::make_shared<std::vector<std::pair<int64_t, std::string> > >();
 

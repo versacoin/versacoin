@@ -64,7 +64,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 2102400;
-        consensus.utxoBlockCount = 10;
+        consensus.utxoBlockCount = 13;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 60;
         consensus.nPowTargetSpacing = 2 * 60;

@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -225,8 +225,8 @@
         <translation>நல்வரவு</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -712,8 +712,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Gocoin Core</source>
-        <translation>Gocoin மையம்</translation>
+        <source>VersaCoin Core</source>
+        <translation>VersaCoin மையம்</translation>
     </message>
     <message>
         <source>Information</source>

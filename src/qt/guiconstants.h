@@ -46,10 +46,10 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Gocoin"
-#define QAPP_ORG_DOMAIN "gocoinproject.org"
-#define QAPP_APP_NAME_DEFAULT "Gocoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Gocoin-Qt-testnet"
-#define QAPP_APP_NAME_REGTEST "Gocoin-Qt-regtest"
+#define QAPP_ORG_NAME "VersaCoin"
+#define QAPP_ORG_DOMAIN "versacoin.org"
+#define QAPP_APP_NAME_DEFAULT "VersaCoin-Qt"
+#define QAPP_APP_NAME_TESTNET "VersaCoin-Qt-testnet"
+#define QAPP_APP_NAME_REGTEST "VersaCoin-Qt-regtest"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

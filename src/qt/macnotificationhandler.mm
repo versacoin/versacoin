@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.gocoinproject.Gocoin-Qt";
+        return @"org.versacoin.VersaCoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

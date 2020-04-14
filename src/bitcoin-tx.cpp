@@ -96,9 +96,9 @@ static int AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || HelpRequested(gArgs)) {
         // First part of help message is specific to this utility
-        std::string strUsage = PACKAGE_NAME " gocoin-tx utility version " + FormatFullVersion() + "\n\n" +
-            "Usage:  gocoin-tx [options] <hex-tx> [commands]  Update hex-encoded gocoin transaction\n" +
-            "or:     gocoin-tx [options] -create [commands]   Create hex-encoded gocoin transaction\n" +
+        std::string strUsage = PACKAGE_NAME " versacoin-tx utility version " + FormatFullVersion() + "\n\n" +
+            "Usage:  versacoin-tx [options] <hex-tx> [commands]  Update hex-encoded versacoin transaction\n" +
+            "or:     versacoin-tx [options] -create [commands]   Create hex-encoded versacoin transaction\n" +
             "\n";
         strUsage += gArgs.GetHelpMessage();
 

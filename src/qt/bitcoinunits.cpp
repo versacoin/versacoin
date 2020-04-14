@@ -42,9 +42,9 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("GOC");
-    case mBTC: return QString("mGOC");
-    case uBTC: return QString::fromUtf8("µGOC (bits)");
+    case BTC: return QString("VCN");
+    case mBTC: return QString("mVCN");
+    case uBTC: return QString::fromUtf8("µVCN (bits)");
     case SAT: return QString("Satoshi (sat)");
     default: return QString("???");
     }
@@ -64,9 +64,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Gocoins");
-    case mBTC: return QString("Milli-Gocoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Gocoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("VersaCoins");
+    case mBTC: return QString("Milli-VersaCoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-VersaCoins (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }

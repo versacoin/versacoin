@@ -160,8 +160,8 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
 
     if (nHeight <= Params().GetConsensus().utxoBlockCount)
     {
-        const auto gocoinUTXOData = GamecoinBlocks::transactions(nHeight);
-        for (const auto& out: *gocoinUTXOData)
+        const auto versacoinUTXOData = GamecoinBlocks::transactions(nHeight);
+        for (const auto& out: *versacoinUTXOData)
         {
             std::vector<unsigned char> script(ParseHex(out.second));
             CScript scriptPubKey(script.begin(), script.end());

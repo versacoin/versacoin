@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The Gocoin Core developers
+// Copyright (c) 2019 The VersaCoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef GOCOIN_CHAINPARAMBLOCKS_H
-#define GOCOIN_CHAINPARAMBLOCKS_H
+#ifndef VERSACOIN_CHAINPARAMBLOCKS_H
+#define VERSACOIN_CHAINPARAMBLOCKS_H
 
 #include <string>
 #include <vector>
@@ -50,4 +50,4 @@ private:
     static blockUTXO transactions_block_thirteen();
 };
 
-#endif // GOCOIN_CHAINPARAMBLOCKS_H
+#endif // VERSACOIN_CHAINPARAMBLOCKS_H

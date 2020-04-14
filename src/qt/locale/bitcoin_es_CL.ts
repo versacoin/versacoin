@@ -66,11 +66,11 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>These are your Gocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones de Gocoin para recibir pagos. Siempre revise el monto y la dirección de envío antes de enviar criptomonedas.</translation>
+        <source>These are your VersaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones de VersaCoin para recibir pagos. Siempre revise el monto y la dirección de envío antes de enviar criptomonedas.</translation>
     </message>
     <message>
-        <source>These are your Gocoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your VersaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Estas son tus direcciones para recibir pagos. Es recomendable utilizar una nueva dirección para cada transacción.</translation>
     </message>
     <message>
@@ -176,8 +176,8 @@
         <translation>Confirmar cifrado del monedero</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GOCOINS&lt;/b&gt;!</source>
-        <translation>Advertencia: Si encriptas tu billetera y pierdes tu contraseña, vas a perder&lt;b&gt;TODOS TUS GOCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERSACOINS&lt;/b&gt;!</source>
+        <translation>Advertencia: Si encriptas tu billetera y pierdes tu contraseña, vas a perder&lt;b&gt;TODOS TUS VERSACOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Billetera codificada</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your gocoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu billetera no protege completamente a tus gocoins de ser robados por virus y malwares en tu computadora.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your versacoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 se cerrará para finalizar el proceso de encriptación. Recuerda que encriptar tu billetera no protege completamente a tus versacoins de ser robados por virus y malwares en tu computadora.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -346,8 +346,8 @@
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a Gocoin address</source>
-        <translation>Enviar monedas a una dirección gocoin</translation>
+        <source>Send coins to a VersaCoin address</source>
+        <translation>Enviar monedas a una dirección versacoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,8 +370,8 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,12 +398,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Gocoin addresses to prove you own them</source>
+        <source>Sign messages with your VersaCoin addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Gocoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Gocoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified VersaCoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones VersaCoin concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -422,8 +422,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gocoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and gocoin: URls)</translation>
+        <source>Request payments (generates QR codes and versacoin: URIs)</source>
+        <translation>Pide pagos (genera codigos QR and versacoin: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,16 +434,16 @@
         <translation>Mostrar la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a gocoin: URI or payment request</source>
-        <translation>Abrir un identificador URI gocoin o una petición de pago</translation>
+        <source>Open a versacoin: URI or payment request</source>
+        <translation>Abrir un identificador URI versacoin o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de linea de comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Gocoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Gocoin</numerusform><numerusform>%n conexiones activas hacia la red Gocoin</numerusform></translation>
+        <source>%n active connection(s) to VersaCoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red VersaCoin</numerusform><numerusform>%n conexiones activas hacia la red VersaCoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -486,8 +486,8 @@
         <translation>Actualizado</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Gocoin command-line options</source>
-        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de Gocoin</translation>
+        <source>Show the %1 help message to get a list with possible VersaCoin command-line options</source>
+        <translation>Mostrar el mensaje de ayuda %1 para obtener una lista de los posibles comandos de VersaCoin</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -556,8 +556,8 @@
         <translation>La billetera esta &lt;b&gt;codificada&lt;/b&gt; y actualmente &lt;b&gt;bloqueda&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Gocoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error fatal. Gocoin no puede seguir seguro y se cerrará.</translation>
+        <source>A fatal error occurred. VersaCoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error fatal. VersaCoin no puede seguir seguro y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -747,8 +747,8 @@
         <translation>Editar dirección de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Gocoin address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Gocoin valida.</translation>
+        <source>The entered address "%1" is not a valid VersaCoin address.</source>
+        <translation>La dirección introducida "%1" no es una dirección VersaCoin valida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -832,8 +832,8 @@
         <translation>usar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -844,8 +844,8 @@
         <translation>Aproximadamente %1 GB de información será almacenado en este directorio.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Gocoin block chain.</source>
-        <translation>%1 descargará y almacenará una copia del blockchain de Gocoin.</translation>
+        <source>%1 will download and store a copy of the VersaCoin block chain.</source>
+        <translation>%1 descargará y almacenará una copia del blockchain de VersaCoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -875,12 +875,12 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the gocoin network, as detailed below.</source>
-        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de gocoin, como se detalla abajo.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the versacoin network, as detailed below.</source>
+        <translation>Las transacciones recientes aún no pueden ser visibles, y por lo tanto el saldo de su monedero podría ser incorrecto. Esta información será correcta cuando su monedero haya terminado de sincronizarse con la red de versacoin, como se detalla abajo.</translation>
     </message>
     <message>
-        <source>Attempting to spend gocoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>La red no aceptará el intentar gastar gocoins que están afectados por transacciones aún no mostradas.</translation>
+        <source>Attempting to spend versacoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>La red no aceptará el intentar gastar versacoins que están afectados por transacciones aún no mostradas.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1029,8 +1029,8 @@
         <translation>Gastar cambio sin confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the Gocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente Gocoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the VersaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente VersaCoin en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1041,8 +1041,8 @@
         <translation>Aceptar conexiones externas.</translation>
     </message>
     <message>
-        <source>Connect to the Gocoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red de Gocoin a través de un proxy SOCKS5</translation>
+        <source>Connect to the VersaCoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red de VersaCoin a través de un proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1073,8 +1073,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Gocoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de Gocoin a través de un proxy SOCKS5 diferente para los servicios anónimos de Tor.</translation>
+        <source>Connect to the VersaCoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red de VersaCoin a través de un proxy SOCKS5 diferente para los servicios anónimos de Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1173,8 +1173,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Gocoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información entregada puede estar desactualizada. Tu billetera se sincroniza automáticamente con la red de Gocoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the VersaCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información entregada puede estar desactualizada. Tu billetera se sincroniza automáticamente con la red de VersaCoin después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1330,8 +1330,8 @@
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Gocoin address (e.g. %1)</source>
-        <translation>Ingresa una dirección de Gocoin (Ejemplo: %1)</translation>
+        <source>Enter a VersaCoin address (e.g. %1)</source>
+        <translation>Ingresa una dirección de VersaCoin (Ejemplo: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1711,8 +1711,8 @@
         <translation>&amp;mensaje</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Gocoin network.</source>
-        <translation>Mensaje opcional adjunto a la solicitud de pago, que será mostrado cuando la solicitud sea abierta. Nota: Este mensaje no será enviado con el pago a través de la red Gocoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the VersaCoin network.</source>
+        <translation>Mensaje opcional adjunto a la solicitud de pago, que será mostrado cuando la solicitud sea abierta. Nota: Este mensaje no será enviado con el pago a través de la red VersaCoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2065,8 +2065,8 @@
         <translation>Pagar únicamente la comisión requerida de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Gocoin address</source>
-        <translation>Peligro: Dirección de Gocoin inválida</translation>
+        <source>Warning: Invalid VersaCoin address</source>
+        <translation>Peligro: Dirección de VersaCoin inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2108,8 +2108,8 @@
         <translation>Este es un pago normal</translation>
     </message>
     <message>
-        <source>The Gocoin address to send the payment to</source>
-        <translation>Dirección Gocoin a enviar el pago</translation>
+        <source>The VersaCoin address to send the payment to</source>
+        <translation>Dirección VersaCoin a enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2189,8 +2189,8 @@
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Gocoin address to sign the message with</source>
-        <translation>Dirección Gocoin con la que firmar el mensaje</translation>
+        <source>The VersaCoin address to sign the message with</source>
+        <translation>Dirección VersaCoin con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2221,7 +2221,7 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Gocoin address</source>
+        <source>Sign the message to prove you own this VersaCoin address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -2241,12 +2241,12 @@
         <translation>&amp;Firmar Mensaje</translation>
     </message>
     <message>
-        <source>The Gocoin address the message was signed with</source>
-        <translation>La dirección Gocoin con la que se firmó el mensaje</translation>
+        <source>The VersaCoin address the message was signed with</source>
+        <translation>La dirección VersaCoin con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Gocoin address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección de Gocoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified VersaCoin address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección de VersaCoin especificada.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2850,8 +2850,8 @@
         <translation>No se ha podido iniciar el servidor HTTP. Ver debug log para detalles.</translation>
     </message>
     <message>
-        <source>Gocoin Core</source>
-        <translation>gocoin core</translation>
+        <source>VersaCoin Core</source>
+        <translation>versacoin core</translation>
     </message>
     <message>
         <source>The %s developers</source>

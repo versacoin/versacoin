@@ -1,10 +1,10 @@
 *.tar.gz
 
 *.exe
-src/gocoin
-src/gocoind
-src/gocoin-cli
-src/gocoin-tx
+src/versacoin
+src/versacoind
+src/versacoin-cli
+src/versacoin-tx
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
 src/qt/test/test_bitcoin-qt
@@ -81,13 +81,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-gocoin-qt
-Gocoin-Qt.app
+versacoin-qt
+VersaCoin-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-gocoin-qt_test
+versacoin-qt_test
 
 # Resources cpp
 qrc_*.cpp

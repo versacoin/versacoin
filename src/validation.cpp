@@ -49,7 +49,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Gocoin cannot be compiled without assertions."
+# error "VersaCoin cannot be compiled without assertions."
 #endif
 
 #define MICRO 0.000001
@@ -247,7 +247,7 @@ std::atomic_bool g_is_mempool_loaded{false};
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Gocoin Signed Message:\n";
+const std::string strMessageMagic = "VersaCoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -775,7 +775,7 @@ static bool AcceptToMemoryPoolWorker(const CChainParams& chainparams, CTxMemPool
         // Remove conflicting transactions from the mempool
         for (CTxMemPool::txiter it : allConflicting)
         {
-            LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s GOC additional fees, %d delta bytes\n",
+            LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s VCN additional fees, %d delta bytes\n",
                     it->GetTx().GetHash().ToString(),
                     hash.ToString(),
                     FormatMoney(nModifiedFees - nConflictingFees),
@@ -1789,22 +1789,22 @@ bool CChainState::ConnectBlock(const CBlock& block, CValidationState& state, CBl
 
     if (pindex->nHeight <= Params().GetConsensus().utxoBlockCount)
     {
-        std::shared_ptr<std::vector<std::pair<int64_t, std::string>>> gocoinUTXOData = GamecoinBlocks::transactions(pindex->nHeight);
-        if (block.vtx[0]->vout.size() != (gocoinUTXOData->size() + 1)) // +1 CoinbaseCommit
+        std::shared_ptr<std::vector<std::pair<int64_t, std::string>>> versacoinUTXOData = GamecoinBlocks::transactions(pindex->nHeight);
+        if (block.vtx[0]->vout.size() != (versacoinUTXOData->size() + 1)) // +1 CoinbaseCommit
         {
             return state.DoS(100,
                              error("ConnectBlock(): Gamecoin coinbase incorrect number of outputs (actual=%d vs expected=%d, height=%d)",
-                                   block.vtx[0]->vout.size(), gocoinUTXOData->size(), pindex->nHeight),
+                                   block.vtx[0]->vout.size(), versacoinUTXOData->size(), pindex->nHeight),
                                    REJECT_INVALID, "bad-cb-output-count");
         }
-        for (std::vector<std::pair<int64_t, std::string>>::size_type i = 0; i < gocoinUTXOData->size(); i++)
+        for (std::vector<std::pair<int64_t, std::string>>::size_type i = 0; i < versacoinUTXOData->size(); i++)
         {
-            std::vector<unsigned char> script(ParseHex((*gocoinUTXOData)[i].second));
+            std::vector<unsigned char> script(ParseHex((*versacoinUTXOData)[i].second));
             CScript scriptPubKey(script.begin(), script.end());
-            if (block.vtx[0]->vout[i] != CTxOut((*gocoinUTXOData)[i].first, scriptPubKey)) {
+            if (block.vtx[0]->vout[i] != CTxOut((*versacoinUTXOData)[i].first, scriptPubKey)) {
                 return state.DoS(100,
                                  error("ConnectBlock(): Gamecoin coinbase mismatching output (actual=%s vs expected=%s)",
-                                       block.vtx[0]->vout[i].ToString(), CTxOut((*gocoinUTXOData)[i].first, scriptPubKey).ToString()),
+                                       block.vtx[0]->vout[i].ToString(), CTxOut((*versacoinUTXOData)[i].first, scriptPubKey).ToString()),
                                        REJECT_INVALID, "bad-cb-output-mismatching");
             }
         }

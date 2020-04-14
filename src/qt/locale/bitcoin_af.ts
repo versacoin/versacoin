@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Gocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Gocoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your VersaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u VersaCoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Gocoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Gocoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your VersaCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u VersaCoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Bevestig dat die beursie gekodifiseer is</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR GOCOINS&lt;/b&gt;!</source>
-        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U GOCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VERSACOINS&lt;/b&gt;!</source>
+        <translation>Waarskuwing: Indien u die beursie kodifiseer en u vergeet u wagwoord &lt;b&gt;VERLOOR U AL U VERSACOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Gocoin address</source>
-        <translation>Stuur munte na 'n Gocoin adres</translation>
+        <source>Send coins to a VersaCoin address</source>
+        <translation>Stuur munte na 'n VersaCoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Gocoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Gocoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your VersaCoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u VersaCoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Gocoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Gocoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified VersaCoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde VersaCoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and gocoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en gocoin: URI's)</translation>
+        <source>Request payments (generates QR codes and versacoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en versacoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a gocoin: URI or payment request</source>
-        <translation>Skep 'n gocoin: URI of betalingsversoek</translation>
+        <source>Open a versacoin: URI or payment request</source>
+        <translation>Skep 'n versacoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Gocoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Gocoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. VersaCoin can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. VersaCoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -706,8 +706,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Gocoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Gocoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid VersaCoin address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige VersaCoin adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -779,8 +779,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1144,8 +1144,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Gocoin address (e.g. %1)</source>
-        <translation>Voer in 'n Gocoin adres (bv. %1)</translation>
+        <source>Enter a VersaCoin address (e.g. %1)</source>
+        <translation>Voer in 'n VersaCoin adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1878,8 +1878,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Gocoin Core</source>
-        <translation>Gocoin Kern</translation>
+        <source>VersaCoin Core</source>
+        <translation>VersaCoin Kern</translation>
     </message>
     <message>
         <source>Error loading %s</source>

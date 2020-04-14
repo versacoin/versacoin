@@ -1541,7 +1541,7 @@ static void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Gocoin " + FormatFullVersion();
+        std::string strDesc = "VersaCoin " + FormatFullVersion();
 
         do {
 #ifndef UPNPDISCOVER_SUCCESS

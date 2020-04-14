@@ -130,8 +130,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -265,8 +265,8 @@
         <translation>Tere tulemast</translation>
     </message>
     <message>
-        <source>Gocoin</source>
-        <translation>Gocoin</translation>
+        <source>VersaCoin</source>
+        <translation>VersaCoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -760,8 +760,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Gocoin Core</source>
-        <translation>Gocoin Core</translation>
+        <source>VersaCoin Core</source>
+        <translation>VersaCoin Core</translation>
     </message>
     <message>
         <source>Information</source>

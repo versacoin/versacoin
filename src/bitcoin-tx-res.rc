@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Gocoin"
-            VALUE "FileDescription",    "gocoin-tx (CLI Gocoin transaction editor utility)"
+            VALUE "CompanyName",        "VersaCoin"
+            VALUE "FileDescription",    "versacoin-tx (CLI VersaCoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "gocoin-tx"
+            VALUE "InternalName",       "versacoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "gocoin-tx.exe"
-            VALUE "ProductName",        "gocoin-tx"
+            VALUE "OriginalFilename",   "versacoin-tx.exe"
+            VALUE "ProductName",        "versacoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

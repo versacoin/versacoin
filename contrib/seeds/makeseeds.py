@@ -20,7 +20,7 @@ MIN_BLOCKS = 0
 PATTERN_IPV4 = re.compile(r"^((\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})):(\d+)$")
 PATTERN_IPV6 = re.compile(r"^\[([0-9a-z:]+)\]:(\d+)$")
 PATTERN_ONION = re.compile(r"^([abcdefghijklmnopqrstuvwxyz234567]{16}\.onion):(\d+)$")
-PATTERN_AGENT = re.compile(r"^(/Gocoin:0.17.(1|99)/)$")
+PATTERN_AGENT = re.compile(r"^(/VersaCoin:0.17.(1|99)/)$")
 
 def parseline(line):
     sline = line.split()

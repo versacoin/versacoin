@@ -7,6 +7,7 @@ https://versacoin.org
 
 What is VersaCoin?
 ----------------
+
 VersaCoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. VersaCoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
@@ -19,17 +20,21 @@ the VersaCoin Core software, see https://github.com/versacoin/versacoin/releases
 
 License
 -------
+
 VersaCoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
+
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/versacoin/versacoin/tags) are created
 regularly to indicate new official, stable release versions of VersaCoin Core.
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 Testing
 -------
+
 Testing and code review is the bottleneck for development; we get more pull
 requests than we can review and test on short notice. Please be patient and help out by testing
 other people's pull requests, and remember this is a security-critical project where any mistake might cost people
@@ -48,8 +53,10 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
+
 Translations
 ------------
+
 Changes to translations as well as new translations can be submitted to
 [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
 Translations are periodically pulled from Transifex and merged into the git repository. See the

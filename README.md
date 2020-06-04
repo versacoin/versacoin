@@ -1,7 +1,7 @@
 VersaCoin Core integration/0.17.1.0
 =====================================
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
+[![Build Status](https://travis-ci.org/versacoin/versacoin.svg?branch=master)](https://travis-ci.org/versacoin/versacoin)
 
 https://versacoin.org
 

@@ -1,3 +1,5 @@
+![VersaCoin](https://versacoin.org/images/VersacoinCoin03.png)![VersaCoin](https://versacoin.org/images/VersacoinLogo04.png)
+
 VersaCoin Core integration/0.17.1.0
 =====================================
 

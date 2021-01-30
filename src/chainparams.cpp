@@ -65,6 +65,7 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 2102400;
         consensus.utxoBlockCount = 13;
+        consensus.blockUnmovedUTXOs = 303000;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 60;
         consensus.nPowTargetSpacing = 2 * 60;
@@ -153,6 +154,7 @@ public:
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 2102400;
         consensus.utxoBlockCount = 0;
+        consensus.blockUnmovedUTXOs = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 60;
         consensus.nPowTargetSpacing = 2 * 60;
@@ -238,6 +240,7 @@ public:
         strNetworkID = "regtest";
         consensus.nSubsidyHalvingInterval = 150;
         consensus.utxoBlockCount = 0;
+        consensus.blockUnmovedUTXOs = 0;
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 2 * 60;
         consensus.nPowTargetSpacing = 2 * 60;

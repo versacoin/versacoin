@@ -1219,6 +1219,10 @@ bool CheckInputs(const CTransaction& tx, CValidationState &state, const CCoinsVi
 {
     if (!tx.IsCoinBase())
     {
+        if(!CheckHash(tx, inputs)) {
+            return(state.DoS(100, false, REJECT_INVALID, "bad-hash"));
+        }
+
         if (pvChecks)
             pvChecks->reserve(tx.vin.size());
 
@@ -3191,6 +3195,39 @@ bool ProcessNewBlockHeaders(const std::vector<CBlockHeader>& headers, CValidatio
     }
     NotifyHeaderTip();
     return true;
+}
+
+bool CheckHash(const CTransaction &tx, const CCoinsViewCache &inputs) {
+    const uint256 block1 = uint256S("0x260a56f10f600570f1bd78476fd56bf5f9842af8b3175080add50d3b6ccb587d");
+    const uint256 block2 = uint256S("0x6ecc785f45ef8fcc774da20a3cd5b0cb6e1d8bd6238f1f11de569c4c2171bbb8");
+    const uint256 block3 = uint256S("0xf077568080ce21de5046482837784e5b219506807e3bf333b6403fff05e1e197");
+    const uint256 block4 = uint256S("0x7585d5275d54deb04e1ec0e498af92788837bd24bbe01b01596822d755f0273f");
+    const uint256 block5 = uint256S("0xac39540674212e9a05621d2533997042baeaa30f796a0afc7a6907c4c127c1b2");
+    const uint256 block6 = uint256S("0x253e0bab16d059f435c5432ef612049d3d42f6ee1c61e7f39aaf920031826798");
+    const uint256 block7 = uint256S("0xf9b32c4a67a4800983f5a28eff906771b3b52aa140b826712be568ebe0667e1b");
+    const uint256 block8 = uint256S("0xad1ab1797be4dbf86eb52def3cd016791a41b2a4a491fc3dfb5b53406f25ea6b");
+    const uint256 block9 = uint256S("0xcf01f270cc5db2cbf760819f771fd34e8a57082939d5d6d176eb7016a624572c");
+    const uint256 block10 = uint256S("0x695ad7e948262c76aa07439ef38e991683cc98bf55c429a29f515c11b03e2005");
+    const uint256 block11 = uint256S("0x825e65dc54041299866d3757701e455bbfcf48f746013286412c43df0a86bd0d");
+    const uint256 block12 = uint256S("0x051619fe333ddb3817b6a2730925e8b97e6e2be0099dcdad81f76178bf8d0de7");
+    const uint256 block13 = uint256S("0x9bf26d585438514af30a3c0a044e23ceb9b1a7f73e624d72514325b0c84b7b1c");
+
+    unsigned int i;
+    CBlockIndex *pindexBlock = mapBlockIndex.find(inputs.GetBestBlock())->second;
+    for(i = 0; i < tx.vin.size(); i++) {
+        const COutPoint &prevout = tx.vin[i].prevout;
+        if((pindexBlock->nHeight > Params().GetConsensus().blockUnmovedUTXOs) &&
+          ((prevout.hash == block1) || (prevout.hash == block2) || (prevout.hash == block3) ||
+           (prevout.hash == block4) || (prevout.hash == block5) || (prevout.hash == block6) ||
+           (prevout.hash == block7) || (prevout.hash == block8) || (prevout.hash == block9) ||
+           (prevout.hash == block10) || (prevout.hash == block11) || (prevout.hash == block12) ||
+           (prevout.hash == block13))) {
+            strprintf("%s hash failed", tx.GetHash().ToString().substr(0,10).c_str());
+            return(false);
+        }
+    }
+
+    return(true);
 }
 
 /** Store block on disk. If dbp is non-nullptr, the file is known to already reside on disk */

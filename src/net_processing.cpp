@@ -1732,9 +1732,6 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         pfrom->SetSendVersion(nSendVersion);
         pfrom->nVersion = nVersion;
 
-        if((nServices & NODE_ACP))
-            pfrom->supportACPMessages = true;
-
         if((nServices & NODE_WITNESS))
         {
             LOCK(cs_main);
@@ -1775,8 +1772,11 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         }
 
         // Relay sync-checkpoint
+        if((nServices & NODE_ACP))
         {
             LOCK(cs_main);
+
+            pfrom->supportACPMessages = true;
             if (!checkpointMessage.IsNull())
                 checkpointMessage.RelayTo(pfrom);
         }
@@ -1805,10 +1805,6 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
             assert(pfrom->fInbound == false);
             pfrom->fDisconnect = true;
         }
-
-        // Ask for pending sync-checkpoint if any
-        if (!IsInitialBlockDownload())
-            AskForPendingSyncCheckpoint(pfrom);
 
         return true;
     }
@@ -2745,9 +2741,6 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         }
         bool fNewBlock = false;
         ProcessNewBlock(chainparams, pblock, forceProcessing, &fNewBlock);
-        // Ask for pending sync-checkpoint if any
-        if (!IsInitialBlockDownload())
-            AskForPendingSyncCheckpoint(pfrom);
         if (fNewBlock) {
             pfrom->nLastBlockTime = GetTime();
         } else {
@@ -2889,7 +2882,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         CSyncCheckpoint checkpoint;
         vRecv >> checkpoint;
 
-        if (checkpoint.ProcessSyncCheckpoint(pfrom))
+        if (checkpoint.ProcessSyncCheckpoint())
         {
             // Relay checkpoint
             pfrom->hashCheckpointKnown = checkpoint.hashCheckpoint;
